@@ -1,5 +1,11 @@
 ---
-title: "Proposal"
+title: "Proposal: Patterns of Highest Grossing Movies"
 ---
 
-Your proposal will go here.
+*Team Members: Alpha Bah and Annabelle Adachi*
+
+We will analyze data on the highest grossing movies from 1937-2022 and examine patterns and trends in on-screen and behind-the-scenes details. We will try to determine what makes movies successful at the box office, and how those factors have changed over time. We are passionate about movies and curious about what distinguishes high-earning movies from low-earning movies. 
+
+Work Plan: We plan to share the workload as evenly as possible, and each work on several explorations of different variables of the data. 
+
+
