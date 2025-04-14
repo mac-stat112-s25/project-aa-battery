@@ -1,7 +1,6 @@
 ---
-title: "Effective Teamwork"
+title: "Alpha B Effective Teamwork"
 format: html
-Team Members: Alpha Bah and Annabelle Adachi
 ---
 
 Keys To Effective Teamwork
