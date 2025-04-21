@@ -41,7 +41,6 @@ book:
   appendices:
   - src/appx/proposal.qmd
   - src/appx/case-study.qmd
-  
   - src/et/AlphaB_effective-teamwork.qmd
   - src/et/AnnabelleA_effective-teamwork.qmd
 
