@@ -37,6 +37,11 @@ book:
 
   chapters:
     - index.qmd
+    - research-questions.qmd
+    - question1.qmd
+    - question2.qmd
+    - question3.qmd
+    - question4.qmd
 
   appendices:
   - src/appx/proposal.qmd
