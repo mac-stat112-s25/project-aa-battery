@@ -1,0 +1,106 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "project title",
+    "section": "",
+    "text": "Your report will go here.\n\n# this is a test code",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Report</span>"
+    ]
+  },
+  {
+    "objectID": "research-questions.html",
+    "href": "research-questions.html",
+    "title": "2  research-questions",
+    "section": "",
+    "text": "3 Research Questions",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>research-questions</span>"
+    ]
+  },
+  {
+    "objectID": "research-questions.html#how-does-the-time-of-year-of-a-movies-release-affect-sales",
+    "href": "research-questions.html#how-does-the-time-of-year-of-a-movies-release-affect-sales",
+    "title": "2  research-questions",
+    "section": "3.1 1. How does the time of year of a movie’s release affect sales?",
+    "text": "3.1 1. How does the time of year of a movie’s release affect sales?",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>research-questions</span>"
+    ]
+  },
+  {
+    "objectID": "research-questions.html#what-is-the-relationship-between-a-movies-budget-and-revenue-and-what-other-variables-play-a-role-when-budget-doesnt-correlate-with-sales",
+    "href": "research-questions.html#what-is-the-relationship-between-a-movies-budget-and-revenue-and-what-other-variables-play-a-role-when-budget-doesnt-correlate-with-sales",
+    "title": "2  research-questions",
+    "section": "3.2 2. What is the relationship between a movie’s budget and revenue, and what other variables play a role when budget doesn’t correlate with sales?",
+    "text": "3.2 2. What is the relationship between a movie’s budget and revenue, and what other variables play a role when budget doesn’t correlate with sales?",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>research-questions</span>"
+    ]
+  },
+  {
+    "objectID": "research-questions.html#what-are-the-genre-trends-for-movies-released-over-time",
+    "href": "research-questions.html#what-are-the-genre-trends-for-movies-released-over-time",
+    "title": "2  research-questions",
+    "section": "3.3 3. What are the genre trends for movies released over time?",
+    "text": "3.3 3. What are the genre trends for movies released over time?",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>research-questions</span>"
+    ]
+  },
+  {
+    "objectID": "research-questions.html#how-has-the-relationship-between-run-time-and-movie-success-changed-over-time",
+    "href": "research-questions.html#how-has-the-relationship-between-run-time-and-movie-success-changed-over-time",
+    "title": "2  research-questions",
+    "section": "3.4 4. How has the relationship between run time and movie success changed over time?",
+    "text": "3.4 4. How has the relationship between run time and movie success changed over time?",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>research-questions</span>"
+    ]
+  },
+  {
+    "objectID": "src/appx/proposal.html",
+    "href": "src/appx/proposal.html",
+    "title": "Appendix A — Proposal: Patterns of Highest Grossing Movies",
+    "section": "",
+    "text": "Team Members: Alpha Bah and Annabelle Adachi\nWe will analyze data on the highest grossing movies from 1937-2022 and examine patterns and trends in on-screen and behind-the-scenes details. We will try to determine what makes movies successful at the box office, and how those factors have changed over time. We are passionate about movies and curious about what distinguishes high-earning movies from low-earning movies.\nWork Plan: We plan to share the workload as evenly as possible, and each work on several explorations of different variables of the data.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Proposal: Patterns of Highest Grossing Movies</span>"
+    ]
+  },
+  {
+    "objectID": "src/appx/case-study.html",
+    "href": "src/appx/case-study.html",
+    "title": "Appendix B — Case Study",
+    "section": "",
+    "text": "Case study article: A Plagiarism Scandal Is Unfolding In The Crossword World by Oliver Roeder\nThis article did a very good job of using data analysis to tell an intriguing story. The article wasn’t too packed with data visualizations and it shared insights from the data through a variety of methods. Additionally, the limitations of the data being used was very clearly communicated. The data was made very accessible and relevant details such as how crosswords are structured and created were explained simply to the reader. This article demonstrated how to artfully tell a story using data analysis and visualization that can be understood by anyone.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Case Study</span>"
+    ]
+  },
+  {
+    "objectID": "src/et/AlphaB_effective-teamwork.html",
+    "href": "src/et/AlphaB_effective-teamwork.html",
+    "title": "Appendix C — Alpha B Effective Teamwork",
+    "section": "",
+    "text": "Keys To Effective Teamwork\nEffective teamwork hinges on a teams ability to recognize the strength of each individual, leveraging their unique skill set in order to maximize the teams effectiveness, efficiency, and enjoyment. Additionally, establishment of clear modes of communication is important in preventing misunderstandings and in ensuring group cohesiveness.\nhttps://hbr.org/2023/08/what-makes-some-teams-high-performing",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Alpha B Effective Teamwork</span>"
+    ]
+  },
+  {
+    "objectID": "src/et/AnnabelleA_effective-teamwork.html",
+    "href": "src/et/AnnabelleA_effective-teamwork.html",
+    "title": "Appendix D — Annabelle A Effective Teamwork",
+    "section": "",
+    "text": "article link: https://hr.berkeley.edu/hr-network/central-guide-managing-hr/managing-hr/interaction/team-building/steps\nSummary: Effective teamwork is reliant on every member of the team being treated with respect and being listened to. When team members are valued for their specific skills and given clear communication, they are most successful. It’s also crucial that team members feel aligned with the overall goals of the team. Lastly, clear boundaries should be established in order to minimize conflict and maximize successful collaboration.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>D</span>  <span class='chapter-title'>Annabelle A Effective Teamwork</span>"
+    ]
+  }
+]
