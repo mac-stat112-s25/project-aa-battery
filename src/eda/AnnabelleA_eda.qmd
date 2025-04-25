@@ -7,6 +7,7 @@ format: html
 
 ```{r}
 library(tidyverse)
+library(lubridate)
 movies <- read_csv("~/Documents/GitHub/project-aa-battery/data/movies.csv")
 str(movies)
 ```
@@ -68,12 +69,29 @@ ggplot(movies, aes(x = License)) +
 ## Clean Up Data
 
 ```{r}
-
-movies |>
+movies <- movies |>
   mutate(budget = as.numeric(`Budget (in $)`) ,  # make budget numerical factor and simplify name
          dom_sales = `Domestic Sales (in $)`/1000000 , # convert domestic sales to millions
          int_sales = `International Sales (in $)`/1000000 , # convert international sales to millions
-         ww_sales = `World Wide Sales (in $)`/1000000 , # convert worldwide sales to millions
-         release_date = 
+         ww_sales = `World Wide Sales (in $)`/1000000) |> # convert worldwide sales to millions
+  mutate(release_date = str_replace_all(`Release Date`, c("Jan" = "1", 
+                                                          "Feb" = "2", 
+                                                          "Mar" = "3",
+                                                          "Apr" = "4",
+                                                          "May" = "5",
+                                                          "Jun" = "6",
+                                                          "Jul" = "7",
+                                                          "Aug" = "8",
+                                                          "Sep" = "9",
+                                                          "Oct" = "10",
+                                                          "Nov" = "11",
+                                                          "Dec" = "12"))) |> # make release date all numbers
+  mutate(release_date = as.Date(release_date, "%d-%m-%y")) |> # convert release date to date
+  separate(`Running Time`, c("hour", "min"), sep = "hr") |>
+  mutate(min = str_replace(min, "min", "")) |>
+  mutate(hour = as.numeric(hour),
+         min = as.numeric(min),
+         run_time = (hour*60) + min) # make runtime variable in minutes
+
 ```
 
