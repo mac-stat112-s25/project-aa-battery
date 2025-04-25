@@ -1,0 +1,79 @@
+---
+title: "EDA"
+format: html
+---
+
+## Import Data
+
+```{r}
+library(tidyverse)
+movies <- read_csv("~/Documents/GitHub/project-aa-battery/data/movies.csv")
+str(movies)
+```
+
+## Explore Individual Variables
+
+```{r}
+# distribution of year of release
+# much more data on newer movies released after around 1980
+ggplot(movies, aes(x = Year)) +
+  geom_density()
+
+# distribution of company
+# six distributors were responsible for the most movies by far
+ggplot(movies, aes(x = Distributor)) +
+  geom_bar()
+
+movies |>
+  count(Distributor) |>
+  arrange(desc(n)) |>
+  head(6)
+
+# distribution of budget can't be visualized - variable needs to be made into numerical values, not characters
+
+# domestic, international and worldwide sales
+# numbers are hard to understand because they are so large, should be converted to millions or billions of dollars
+ggplot(movies, aes(x = `Domestic Sales (in $)`)) +
+  geom_density()
+
+ggplot(movies, aes(x = `International Sales (in $)`)) +
+  geom_density()
+
+ggplot(movies, aes(x = `World Wide Sales (in $)`)) +
+  geom_density()
+
+# release date
+# characters should be made into dates so we can examine seasonal patterns
+ggplot(movies, aes(x = `Release Date`)) +
+  geom_bar()
+
+# distribution of movie genre
+# so many genres, movies with more than one genre create new blended genre, messy and hard to gain any info from
+ggplot(movies, aes(x = Genre)) +
+  geom_bar()
+
+movies |>
+  summarise(Genre)
+
+# movie run time
+# should be numerical value in minutes not character value
+movies |>
+  summarise(`Running Time`)
+
+# rating
+ggplot(movies, aes(x = License)) +
+  geom_bar()
+```
+
+## Clean Up Data
+
+```{r}
+
+movies |>
+  mutate(budget = as.numeric(`Budget (in $)`) ,  # make budget numerical factor and simplify name
+         dom_sales = `Domestic Sales (in $)`/1000000 , # convert domestic sales to millions
+         int_sales = `International Sales (in $)`/1000000 , # convert international sales to millions
+         ww_sales = `World Wide Sales (in $)`/1000000 , # convert worldwide sales to millions
+         release_date = 
+```
+
