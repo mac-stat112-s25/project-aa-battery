@@ -5,10 +5,10 @@ format: html
 
 # Research Questions
 
-## 1. How does the time of year of a movie's release affect sales?
+## 1. How does the time of year of a movie's release affect sales? -- Alpha
 
-## 2. What is the relationship between a movie's budget and revenue, and what other variables play a role when budget doesn't correlate with sales?
+## 2. What is the relationship between a movie's budget and revenue, and what other variables play a role when budget doesn't  correlate with sales? -- Annabelle
 
-## 3. What are the genre trends for movies released over time?
+## 3. What are the genre trends for movies released over time? -- Annabelle
 
-## 4. How has the relationship between run time and movie success changed over time?
+## 4. How has the relationship between run time and movie success changed over time? -- Alpha
