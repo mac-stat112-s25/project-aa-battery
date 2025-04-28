@@ -4,3 +4,53 @@ format: html
 ---
 
 # What is the relationship between a movie's budget and revenue, and what other variables play a role when budget doesn't correlate with sales?
+
+
+```{r}
+library(tidyverse)
+library(lubridate)
+```
+
+```{r}
+movies <- read_csv("~/Documents/GitHub/project-aa-battery/movies.csv")
+```
+```{r}
+movies <- movies |>
+  mutate(budget = as.numeric(`Budget (in $)`) , 
+         dom_sales = `Domestic Sales (in $)`/1000000 , 
+         int_sales = `International Sales (in $)`/1000000 , 
+         ww_sales = `World Wide Sales (in $)`/1000000) |> 
+  mutate(release_date = str_replace_all(`Release Date`, c("Jan" = "1", 
+                                                          "Feb" = "2", 
+                                                          "Mar" = "3",
+                                                          "Apr" = "4",
+                                                          "May" = "5",
+                                                          "Jun" = "6",
+                                                          "Jul" = "7",
+                                                          "Aug" = "8",
+                                                          "Sep" = "9",
+                                                          "Oct" = "10",
+                                                          "Nov" = "11",
+                                                          "Dec" = "12"))) |> 
+  mutate(release_date = as.Date(release_date, "%d-%m-%y")) |> 
+  separate(`Running Time`, c("hour", "min"), sep = "hr") |>
+  mutate(min = str_replace(min, "min", "")) |>
+  mutate(hour = as.numeric(hour),
+         min = as.numeric(min),
+         run_time = (hour*60) + min) 
+
+```
+
+```{r}
+movies |>
+  mutate(budget = budget/1000000) |> # convert budget number to millions
+  filter(!is.na(budget)) |>
+  ggplot(aes(x = budget, y = ww_sales, color = cut(budget, 4))) +
+  geom_point() 
+  
+```
+
+```{r}
+
+```
+
