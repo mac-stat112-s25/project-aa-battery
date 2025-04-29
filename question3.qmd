@@ -3,3 +3,76 @@ title: "question3"
 format: html
 ---
 
+# What are the genre trends for movies released over time?
+
+```{r}
+library(tidyverse)
+library(lubridate)
+```
+
+```{r}
+movies <- read_csv("~/Documents/GitHub/project-aa-battery/movies.csv")
+```
+```{r}
+movies <- movies |>
+  mutate(budget = as.numeric(`Budget (in $)`) , 
+         dom_sales = `Domestic Sales (in $)`/1000000 , 
+         int_sales = `International Sales (in $)`/1000000 , 
+         ww_sales = `World Wide Sales (in $)`/1000000) |> 
+  mutate(release_date = str_replace_all(`Release Date`, c("Jan" = "1", 
+                                                          "Feb" = "2", 
+                                                          "Mar" = "3",
+                                                          "Apr" = "4",
+                                                          "May" = "5",
+                                                          "Jun" = "6",
+                                                          "Jul" = "7",
+                                                          "Aug" = "8",
+                                                          "Sep" = "9",
+                                                          "Oct" = "10",
+                                                          "Nov" = "11",
+                                                          "Dec" = "12"))) |> 
+  mutate(release_date = as.Date(release_date, "%d-%m-%y")) |> 
+  separate(`Running Time`, c("hour", "min"), sep = "hr") |>
+  mutate(min = str_replace(min, "min", "")) |>
+  mutate(hour = as.numeric(hour),
+         min = as.numeric(min),
+         run_time = (hour*60) + min) 
+
+```
+
+
+
+```{r}
+genre_movies <- movies |>
+  separate(Genre, c("genre1", "genre2", "genre3", "genre4", "genre5", "genre6", "genre7"), sep = "'") |>
+  select(-genre1, -genre3, -genre5, -genre7) |>
+  mutate(genre_1 = genre2, genre_2 = genre4, genre_3 = genre6) |>
+  select(-genre2, -genre4, -genre6) 
+
+genre_movies |>
+  group_by(genre_1) |>
+  summarise(total = sum(ww_sales)) |>
+  ggplot(aes(x = genre_1, y = total)) +
+  geom_col() # total worldwide sales across all time by genre
+
+genre_movies |>
+  group_by(genre_1) |>
+  summarise(avg = mean(ww_sales)) |>
+  ggplot(aes(x = genre_1, y = avg)) +
+  geom_col()
+
+genre_movies |>
+  group_by(genre_1, Year) |>
+  summarise(avg = mean(ww_sales)) |>
+  ggplot(aes(x = Year, y = avg, color = genre_1)) +
+  geom_line() +
+  facet_wrap(~genre_1)
+
+genre_movies |>
+  group_by(genre_1) |>
+  summarise(med = median(ww_sales)) |>
+  ggplot(aes(x = genre_1, y = med)) +
+  geom_col()
+  
+```
+
