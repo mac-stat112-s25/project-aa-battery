@@ -8,7 +8,7 @@ format: html
 ```{r}
 library(tidyverse)
 library(lubridate)
-movies <- read_csv("~/Documents/GitHub/project-aa-battery/data/movies.csv")
+movies <- read_csv("~/Documents/GitHub/project-aa-battery/movies.csv")
 str(movies)
 ```
 
