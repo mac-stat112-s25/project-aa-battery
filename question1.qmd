@@ -37,31 +37,6 @@ ggplot(movies, aes(x = release_month, y = world_wide_sales)) +
   ) +
   scale_y_continuous(trans = "log10", labels = scales::dollar)
 
-# -------------------------------------------------
-# Make decade a factor so colors are distinct
-movies$decade <- factor(movies$decade)
-
-# Simple scatterplot + trendline
-ggplot(movies, aes(x = running_time_minutes, y = world_wide_sales)) +
-  geom_point(alpha = 0.5, size = 2, color = "#1D3557") +
-  geom_smooth(method = "lm", se = TRUE, color = "#E63946", size = 1.2) +
-  labs(
-    title = "Relationship Between Runtime and Worldwide Sales",
-    subtitle = "Each point is a movie, with a trendline",
-    x = "Runtime (Minutes)",
-    y = "Worldwide Sales (Log Scale)"
-  ) +
-  theme_minimal(base_size = 16) +
-  theme(
-    plot.title = element_text(face = "bold", size = 22, hjust = 0.5),
-    plot.subtitle = element_text(size = 16, hjust = 0.5),
-    axis.title.x = element_text(margin = margin(t = 10)),
-    axis.title.y = element_text(margin = margin(r = 10))
-  ) +
-  scale_y_continuous(trans = "log10", labels = scales::dollar)
-
 
 ```
-
-A Pearson correlation analysis revealed a weak-to-moderate positive relationship (r = 0.297) between runtime and worldwide sales, suggesting that longer movies tend to perform slightly better at the box office, although runtime alone is not a strong predictor of success.
 
