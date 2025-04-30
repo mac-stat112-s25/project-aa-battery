@@ -62,17 +62,25 @@ genre_movies |>
   geom_col()
 
 genre_movies |>
-  group_by(genre_1, Year) |>
-  summarise(avg = mean(ww_sales)) |>
-  ggplot(aes(x = Year, y = avg, color = genre_1)) +
-  geom_line() +
-  facet_wrap(~genre_1)
-
-genre_movies |>
   group_by(genre_1) |>
   summarise(med = median(ww_sales)) |>
   ggplot(aes(x = genre_1, y = med)) +
   geom_col()
   
+```
+
+```{r}
+genre_movies |>
+  group_by(genre_1, Year) |>
+  summarise(avg = mean(ww_sales)) |>
+  ggplot(aes(x = Year, y = avg, color = genre_1)) +
+  geom_col() +
+  facet_wrap(~genre_1) +
+  labs(title = "Trends in Yearly Average Worldwide Sales by Genre",
+       y = "Average Worldwide Sales(Millions of Dollars)",
+       subtitle = "by Annabelle Adachi",
+       caption = "Column plot visualizing trends in movie success over time by genre.") +
+  theme(legend.position = "none",
+        plot.caption = element_text(hjust = 0.5))
 ```
 

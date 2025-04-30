@@ -46,11 +46,14 @@ movies |>
   mutate(budget = budget/1000000) |> # convert budget number to millions
   filter(!is.na(budget)) |>
   ggplot(aes(x = budget, y = ww_sales, color = cut(budget, 4))) +
-  geom_point() 
+  geom_boxplot() +
+  labs(title = "Movie Budgets vs Worldwide Sales Split by Budget Range",
+       x = "Budget(Millions of Dollars)",
+       y = "Worldwide Sales(Millions of Dollars)",
+       color = "Budget Range",
+       subtitle = "by Annabelle Adachi",
+       caption = "Boxplot of budget ranges versus worldwide sales. There is a positive trend in the median sales as the budget increases.") +
+  theme(plot.caption.position = "plot")
   
-```
-
-```{r}
-
 ```
 
