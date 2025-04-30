@@ -37,10 +37,18 @@ book:
 
   chapters:
     - index.qmd
+    - research-questions.qmd
+    - question1.qmd
+    - question2.qmd
+    - question3.qmd
+    - question4.qmd
 
   appendices:
   - src/appx/proposal.qmd
   - src/appx/case-study.qmd
+  - src/et/AlphaB_effective-teamwork.qmd
+  - src/et/AnnabelleA_effective-teamwork.qmd
+  - src/eda/AnnabelleA_eda.qmd
 
 
 

@@ -1,0 +1,42 @@
+---
+title: "question1"
+format: html
+---
+
+```{r}
+# Load libraries
+library(tidyverse)
+library(lubridate)
+
+# 1. Load the corrected cleaned file
+movies <- read.csv("data/movies_cleaned_final_with_correct_month.csv")
+
+# 2. FIX the month so it displays January, February, etc.
+movies$release_month <- factor(movies$release_month, levels = 1:12, labels = month.name, ordered = TRUE)
+
+# -------------------------------------------------
+# Plot 1: Time of Year Affecting Sales
+# -------------------------------------------------
+
+ggplot(movies, aes(x = release_month, y = world_wide_sales)) +
+  geom_boxplot(fill = "skyblue", outlier.color = "red", outlier.alpha = 0.5) +
+  labs(
+    title = "Worldwide Sales by Month of Release",
+    subtitle = "Boxplots show spread, median, and outliers by month",
+    x = "Release Month",
+    y = "Worldwide Sales (Log Scale)"
+  ) +
+  theme_minimal(base_size = 16) +
+  theme(
+    plot.title = element_text(face = "bold", size = 20, hjust = 0.5),
+    plot.subtitle = element_text(size = 14, hjust = 0.5),
+    axis.title.x = element_text(margin = margin(t = 10)),
+    axis.title.y = element_text(margin = margin(r = 10)),
+    axis.text.x = element_text(angle = 45, hjust = 1, size = 12),
+    axis.text.y = element_text(size = 12)
+  ) +
+  scale_y_continuous(trans = "log10", labels = scales::dollar)
+
+
+```
+

@@ -1,0 +1,1001 @@
+title,year,release_date,release_month,decade,running_time_minutes,world_wide_sales,genre,license
+Avatar,2009,16-Dec-09,12.0,2000,162,2923706026,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",PG-13
+Avengers: Endgame,2019,24-Apr-19,4.0,2010,181,2799439100,"['Action', 'Adventure', 'Drama', 'Sci-Fi']",PG-13
+Avatar: The Way of Water,2022,24-Apr-19,4.0,2020,181,2320250281,"['Action', 'Adventure', 'Drama', 'Sci-Fi']",PG-13
+Titanic,1997,19-Dec-97,12.0,1990,194,2264743305,"['Drama', 'Romance']",PG-13
+Star Wars: Episode VII - The Force Awakens,2015,16-Dec-15,12.0,2010,138,2071310218,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Avengers: Infinity War,2018,16-Dec-15,12.0,2010,138,2052415039,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Spider-Man: No Way Home,2021,16-Dec-15,12.0,2020,138,1921847111,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Jurassic World,2015,10-Jun-15,6.0,2010,124,1671537444,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+The Lion King,2019,11-Jul-19,7.0,2010,118,1663075401,"['Adventure', 'Drama', 'Family', 'Musical']",PG
+The Avengers,2012,25-Apr-12,4.0,2010,143,1520538536,"['Action', 'Sci-Fi']",PG-13
+Furious 7,2015,1-Apr-15,4.0,2010,137,1515341399,"['Action', 'Crime', 'Thriller']",PG-13
+Top Gun: Maverick,2022,1-Apr-15,4.0,2020,137,1495696292,"['Action', 'Crime', 'Thriller']",PG-13
+Frozen II,2019,20-Nov-19,11.0,2010,103,1453683476,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family', 'Fantasy', 'Musical']",PG
+Barbie,2023,20-Nov-19,11.0,2020,103,1427450087,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family', 'Fantasy', 'Musical']",PG
+Avengers: Age of Ultron,2015,22-Apr-15,4.0,2010,141,1405018048,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+The Super Mario Bros. Movie,2023,22-Apr-15,4.0,2020,141,1360764054,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Black Panther,2018,22-Apr-15,4.0,2010,141,1349926083,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Harry Potter and the Deathly Hallows: Part 2,2011,22-Apr-15,4.0,2010,141,1342359942,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Star Wars: Episode VIII - The Last Jedi,2017,13-Dec-17,12.0,2010,152,1334407706,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",PG-13
+Jurassic World: Fallen Kingdom,2018,6-Jun-18,6.0,2010,128,1310466296,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Frozen,2013,22-Nov-13,11.0,2010,102,1284540518,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Musical']",PG
+Beauty and the Beast,2017,16-Mar-17,3.0,2010,129,1266115964,"['Adventure', 'Family', 'Fantasy', 'Musical', 'Romance']",PG
+Incredibles 2,2018,16-Mar-17,3.0,2010,129,1243225667,"['Adventure', 'Family', 'Fantasy', 'Musical', 'Romance']",PG
+The Fate of the Furious,2017,12-Apr-17,4.0,2010,136,1236005118,"['Action', 'Crime', 'Thriller']",PG-13
+Iron Man 3,2013,24-Apr-13,4.0,2010,130,1215577205,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Minions,2015,9-Apr-15,4.0,2010,91,1159444662,"['Adventure', 'Animation', 'Comedy', 'Crime', 'Family', 'Sci-Fi']",PG
+Captain America: Civil War,2016,27-Apr-16,4.0,2010,147,1155046416,"['Action', 'Sci-Fi']",PG-13
+Aquaman,2018,27-Apr-16,4.0,2010,147,1148528393,"['Action', 'Sci-Fi']",PG-13
+The Lord of the Rings: The Return of the King,2003,17-Dec-03,12.0,2000,201,1147633833,"['Action', 'Adventure', 'Drama', 'Fantasy']",PG-13
+Skyfall,2012,25-Oct-12,10.0,2010,143,1142471295,"['Action', 'Adventure', 'Thriller']",PG-13
+Spider-Man: Far from Home,2019,28-Jun-19,6.0,2010,129,1131927996,"['Action', 'Adventure', 'Comedy', 'Sci-Fi']",PG-13
+Captain Marvel,2019,6-Mar-19,3.0,2010,123,1131416446,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Transformers: Dark of the Moon,2011,29-Jun-11,6.0,2010,154,1123794079,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Jurassic Park,1993,11-Jun-93,6.0,1990,127,1113138548,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",PG-13
+Transformers: Age of Extinction,2014,25-Jun-14,6.0,2010,165,1104054072,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+The Dark Knight Rises,2012,19-Jul-12,7.0,2010,164,1081169825,"['Action', 'Drama', 'Thriller']",PG-13
+Star Wars: Episode IX - The Rise of Skywalker,2019,18-Dec-19,12.0,2010,141,1077022372,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",PG-13
+Joker,2019,2-Oct-19,10.0,2010,122,1074458282,"['Crime', 'Drama', 'Thriller']",R
+Toy Story 4,2019,20-Jun-19,6.0,2010,100,1073841394,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",G
+Toy Story 3,2010,16-Jun-10,6.0,2010,103,1067316101,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",G
+Pirates of the Caribbean: Dead Man's Chest,2006,6-Jul-06,7.0,2000,151,1066179747,"['Action', 'Adventure', 'Fantasy']",PG-13
+Rogue One: A Star Wars Story,2016,14-Dec-16,12.0,2010,133,1058682142,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Aladdin,2019,22-May-19,5.0,2010,128,1054304000,"['Adventure', 'Comedy', 'Family', 'Fantasy', 'Musical', 'Romance']",PG
+Pirates of the Caribbean: On Stranger Tides,2011,18-May-11,5.0,2010,137,1046721266,"['Action', 'Adventure', 'Fantasy']",PG-13
+Despicable Me 3,2017,14-Jun-17,6.0,2010,89,1034800131,"['Adventure', 'Animation', 'Comedy', 'Crime', 'Family', 'Sci-Fi']",PG
+Finding Dory,2016,14-Jun-17,6.0,2010,89,1029266989,"['Adventure', 'Animation', 'Comedy', 'Crime', 'Family', 'Sci-Fi']",PG
+Star Wars: Episode I - The Phantom Menace,1999,19-May-99,5.0,1990,136,1027082707,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",PG
+Zootopia,2016,19-May-99,5.0,2010,136,1025521689,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",PG
+Alice in Wonderland,2010,3-Mar-10,3.0,2010,108,1025468216,"['Adventure', 'Family', 'Fantasy', 'Mystery']",PG
+Harry Potter and the Sorcerer's Stone,2001,16-Nov-01,11.0,2000,152,1024042690,"['Adventure', 'Family', 'Fantasy']",PG
+The Hobbit: An Unexpected Journey,2012,16-Nov-01,11.0,2010,152,1017030651,"['Adventure', 'Family', 'Fantasy']",PG
+The Dark Knight,2008,16-Jul-08,7.0,2000,152,1006454829,"['Action', 'Crime', 'Drama', 'Thriller']",PG-13
+Jurassic World Dominion,2022,16-Jul-08,7.0,2020,152,1001978080,"['Action', 'Crime', 'Drama', 'Thriller']",PG-13
+Jumanji: Welcome to the Jungle,2017,20-Dec-17,12.0,2010,119,995339117,"['Action', 'Adventure', 'Comedy', 'Fantasy']",PG-13
+Harry Potter and the Deathly Hallows: Part 1,2010,20-Dec-17,12.0,2010,119,977070383,"['Action', 'Adventure', 'Comedy', 'Fantasy']",PG-13
+Despicable Me 2,2013,20-Jun-13,6.0,2010,98,970766005,"['Adventure', 'Animation', 'Comedy', 'Crime', 'Family', 'Sci-Fi']",PG
+The Lion King,1994,15-Jun-94,6.0,1990,88,968511805,"['Adventure', 'Animation', 'Drama', 'Family', 'Musical']",G
+The Jungle Book,2016,7-Apr-16,4.0,2010,106,967724775,"['Adventure', 'Drama', 'Family', 'Fantasy']",PG
+The Hobbit: The Battle of the Five Armies,2014,7-Apr-16,4.0,2010,106,962201338,"['Adventure', 'Drama', 'Family', 'Fantasy']",PG
+Pirates of the Caribbean: At World's End,2007,22-May-07,5.0,2000,169,961691209,"['Action', 'Adventure', 'Fantasy']",PG-13
+The Hobbit: The Desolation of Smaug,2013,22-May-07,5.0,2010,169,959027992,"['Action', 'Adventure', 'Fantasy']",PG-13
+Doctor Strange in the Multiverse of Madness,2022,22-May-07,5.0,2020,169,955775804,"['Action', 'Adventure', 'Fantasy']",PG-13
+The Lord of the Rings: The Two Towers,2002,18-Dec-02,12.0,2000,179,947944270,"['Action', 'Adventure', 'Drama', 'Fantasy']",PG-13
+Harry Potter and the Order of the Phoenix,2007,11-Jul-07,7.0,2000,138,942278045,"['Action', 'Adventure', 'Family', 'Fantasy', 'Mystery']",PG-13
+Finding Nemo,2003,30-May-03,5.0,2000,100,941637960,"['Adventure', 'Animation', 'Comedy', 'Family']",G
+Minions: The Rise of Gru,2022,30-May-03,5.0,2020,100,939628210,"['Adventure', 'Animation', 'Comedy', 'Family']",G
+Harry Potter and the Half-Blood Prince,2009,15-Jul-09,7.0,2000,153,934519387,"['Action', 'Adventure', 'Family', 'Fantasy', 'Mystery']",PG
+Shrek 2,2004,19-May-04,5.0,2000,93,928760770,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Romance']",PG
+Oppenheimer,2023,19-May-04,5.0,2020,93,925964945,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Romance']",PG
+Harry Potter and the Chamber of Secrets,2002,14-Nov-02,11.0,2000,161,925958195,"['Adventure', 'Family', 'Fantasy', 'Mystery']",PG
+Bohemian Rhapsody,2018,26-Oct-18,10.0,2010,134,910809311,"['Biography', 'Drama', 'Music']",PG-13
+The Battle at Lake Changjin,2021,26-Oct-18,10.0,2020,134,902548476,"['Biography', 'Drama', 'Music']",PG-13
+The Lord of the Rings: The Fellowship of the Ring,2001,19-Dec-01,12.0,2000,178,898204420,"['Action', 'Adventure', 'Drama', 'Fantasy']",PG-13
+Harry Potter and the Goblet of Fire,2005,16-Nov-05,11.0,2000,157,896815310,"['Adventure', 'Family', 'Fantasy', 'Mystery']",PG-13
+Spider-Man 3,2007,1-May-07,5.0,2000,139,894983373,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+The Secret Life of Pets,2016,24-Jun-16,6.0,2010,87,894328469,"['Adventure', 'Animation', 'Comedy', 'Family']",PG
+Ice Age: Dawn of the Dinosaurs,2009,29-Jun-09,6.0,2000,94,886686817,"['Adventure', 'Animation', 'Comedy', 'Family']",PG
+Spectre,2015,26-Oct-15,10.0,2010,148,880705312,"['Action', 'Adventure', 'Thriller']",PG-13
+Spider-Man: Homecoming,2017,5-Jul-17,7.0,2010,133,880166924,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Ice Age: Continental Drift,2012,27-Jun-12,6.0,2010,88,877244782,"['Adventure', 'Animation', 'Comedy', 'Family']",PG
+Batman v Superman: Dawn of Justice,2016,23-Mar-16,3.0,2010,151,873637528,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Wolf Warrior 2,2017,27-Jul-17,7.0,2010,123,870325439,"['Action', 'Adventure', 'Drama', 'Thriller', 'War']",PG-13
+Star Wars: Episode III - Revenge of the Sith,2005,18-May-05,5.0,2000,140,868390560,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",PG-13
+The Hunger Games: Catching Fire,2013,15-Nov-13,11.0,2010,146,865011746,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",PG-13
+Guardians of the Galaxy Vol. 2,2017,25-Apr-17,4.0,2010,136,863756051,"['Action', 'Adventure', 'Comedy', 'Sci-Fi']",PG-13
+Black Panther: Wakanda Forever,2022,25-Apr-17,4.0,2020,136,859208836,"['Action', 'Adventure', 'Comedy', 'Sci-Fi']",PG-13
+Inside Out,2015,10-Jun-15,6.0,2010,95,858848019,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family', 'Fantasy']",PG
+Venom,2018,3-Oct-18,10.0,2010,112,856085151,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Thor: Ragnarok,2017,24-Oct-17,10.0,2010,130,855301806,"['Action', 'Adventure', 'Comedy', 'Fantasy', 'Sci-Fi']",PG-13
+The Twilight Saga: Breaking Dawn - Part 2,2012,14-Nov-12,11.0,2010,115,848593948,"['Adventure', 'Drama', 'Fantasy', 'Romance']",PG-13
+Guardians of the Galaxy Vol. 3,2023,14-Nov-12,11.0,2020,115,845555777,"['Adventure', 'Drama', 'Fantasy', 'Romance']",PG-13
+Inception,2010,15-Jul-10,7.0,2010,148,839030630,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",PG-13
+Transformers: Revenge of the Fallen,2009,19-Jun-09,6.0,2000,149,836303693,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Spider-Man,2002,3-May-02,5.0,2000,121,825025036,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Wonder Woman,2017,30-May-17,5.0,2010,141,822854286,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi', 'War']",PG-13
+"Hi, Mom",2021,30-May-17,5.0,2020,141,822854286,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi', 'War']",PG-13
+Independence Day,1996,3-Jul-96,7.0,1990,145,817400891,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Coco,2017,3-Jul-96,7.0,2010,145,814337054,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Fantastic Beasts and Where to Find Them,2016,16-Nov-16,11.0,2010,132,814044001,"['Adventure', 'Family', 'Fantasy']",PG-13
+Shrek the Third,2007,17-May-07,5.0,2000,93,813367380,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Romance']",PG
+Jumanji: The Next Level,2019,4-Dec-19,12.0,2010,123,801693929,"['Action', 'Adventure', 'Comedy', 'Fantasy']",PG-13
+Harry Potter and the Prisoner of Azkaban,2004,2-Jun-04,6.0,2000,142,797858331,"['Adventure', 'Family', 'Fantasy', 'Mystery']",PG
+Pirates of the Caribbean: Dead Men Tell No Tales,2017,24-May-17,5.0,2010,129,795922298,"['Action', 'Adventure', 'Fantasy']",PG-13
+E.T. the Extra-Terrestrial,1982,11-Jun-82,6.0,1980,115,792910554,"['Adventure', 'Family', 'Sci-Fi']",PG
+Mission: Impossible - Fallout,2018,25-Jul-18,7.0,2010,147,791657398,"['Action', 'Adventure', 'Thriller']",PG-13
+2012,2009,11-Nov-09,11.0,2000,158,791217826,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Indiana Jones and the Kingdom of the Crystal Skull,2008,21-May-08,5.0,2000,122,790653942,"['Action', 'Adventure']",PG-13
+Spider-Man 2,2004,30-Jun-04,6.0,2000,127,788976453,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Fast & Furious 6,2013,17-May-13,5.0,2010,130,788680968,"['Action', 'Adventure', 'Crime', 'Thriller']",PG-13
+Deadpool 2,2018,16-May-18,5.0,2010,119,785896609,"['Action', 'Adventure', 'Comedy', 'Sci-Fi']",R
+Deadpool,2016,9-Feb-16,2.0,2010,108,782836791,"['Action', 'Comedy']",R
+Star Wars: Episode IV - A New Hope,1977,25-May-77,5.0,1970,121,775398007,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",PG
+No Time to Die,2021,25-May-77,5.0,2020,121,774153007,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",PG
+Guardians of the Galaxy,2014,30-Jul-14,7.0,2010,121,773350147,"['Action', 'Adventure', 'Comedy', 'Sci-Fi']",PG-13
+The Batman,2022,30-Jul-14,7.0,2020,121,770962583,"['Action', 'Adventure', 'Comedy', 'Sci-Fi']",PG-13
+Thor: Love and Thunder,2022,30-Jul-14,7.0,2020,121,760928081,"['Action', 'Adventure', 'Comedy', 'Sci-Fi']",PG-13
+Fast & Furious Presents: Hobbs & Shaw,2019,1-Jul-19,7.0,2010,137,760732926,"['Action', 'Adventure', 'Thriller']",PG-13
+The Da Vinci Code,2006,17-May-06,5.0,2000,149,760006945,"['Mystery', 'Thriller']",PG-13
+Maleficent,2014,28-May-14,5.0,2010,97,759853685,"['Adventure', 'Family', 'Fantasy', 'Romance']",PG
+The Amazing Spider-Man,2012,28-Jun-12,6.0,2010,136,757930663,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+The Hunger Games: Mockingjay - Part 1,2014,19-Nov-14,11.0,2010,123,755356711,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",PG-13
+Shrek Forever After,2010,20-May-10,5.0,2010,95,752600867,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Romance']",PG
+Gravity,2013,3-Oct-13,10.0,2010,91,748049949,"['Drama', 'Sci-Fi', 'Thriller']",PG-13
+Madagascar 3: Europe's Most Wanted,2012,6-Jun-12,6.0,2010,95,746921274,"['Adventure', 'Animation', 'Comedy', 'Family']",PG
+Suicide Squad,2016,3-Aug-16,8.0,2010,123,746846894,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",PG-13
+X-Men: Days of Future Past,2014,21-May-14,5.0,2010,132,746045700,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",PG-13
+"The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",2005,7-Dec-05,12.0,2000,143,745013115,"['Adventure', 'Family', 'Fantasy']",PG
+Monsters University,2013,7-Dec-05,12.0,2010,143,743559645,"['Adventure', 'Family', 'Fantasy']",PG
+The Matrix Reloaded,2003,15-May-03,5.0,2000,138,741847937,"['Action', 'Sci-Fi']",R
+Up,2009,28-May-09,5.0,2000,96,735099102,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family']",PG
+Ne Zha,2019,28-May-09,5.0,2010,96,726264074,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family']",PG
+F9: The Fast Saga,2021,28-May-09,5.0,2020,96,726229501,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family']",PG
+Captain America: The Winter Soldier,2014,26-Mar-14,3.0,2010,136,714421503,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",PG-13
+The Twilight Saga: Breaking Dawn - Part 1,2011,16-Nov-11,11.0,2010,117,712205856,"['Adventure', 'Drama', 'Fantasy', 'Romance', 'Thriller']",PG-13
+The Twilight Saga: New Moon,2009,18-Nov-09,11.0,2000,130,711025481,"['Adventure', 'Drama', 'Fantasy', 'Romance']",PG-13
+Dawn of the Planet of the Apes,2014,9-Jul-14,7.0,2010,130,710644566,"['Action', 'Adventure', 'Drama', 'Sci-Fi', 'Thriller']",PG-13
+Transformers,2007,28-Jun-07,6.0,2000,144,709709780,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+The Amazing Spider-Man 2,2014,28-Jun-07,6.0,2010,144,708982323,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Fast X,2023,28-Jun-07,6.0,2020,144,704709660,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Interstellar,2014,5-Nov-14,11.0,2010,169,703170837,"['Adventure', 'Drama', 'Sci-Fi']",PG-13
+It,2017,6-Sep-17,9.0,2010,135,701842551,['Horror'],R
+The Wandering Earth,2019,6-Sep-17,9.0,2010,135,699992512,['Horror'],R
+The Twilight Saga: Eclipse,2010,30-Jun-10,6.0,2010,124,698509825,"['Action', 'Adventure', 'Drama', 'Fantasy', 'Romance', 'Thriller']",PG-13
+Mission: Impossible - Ghost Protocol,2011,14-Dec-11,12.0,2010,132,694713380,"['Action', 'Adventure', 'Thriller']",PG-13
+Mamma Mia!,2008,27-Jun-08,6.0,2000,108,694478392,"['Comedy', 'Musical', 'Romance']",PG-13
+The Hunger Games,2012,8-Mar-12,3.0,2010,142,694394724,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",PG-13
+Spider-Man: Across the Spider-Verse,2023,8-Mar-12,3.0,2020,142,689810862,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",PG-13
+Moana,2016,8-Mar-12,3.0,2010,142,687228908,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",PG-13
+Detective Chinatown 3,2021,8-Mar-12,3.0,2020,142,687228908,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",PG-13
+Mission: Impossible - Rogue Nation,2015,24-Jul-15,7.0,2010,131,682716636,"['Action', 'Adventure', 'Thriller']",PG-13
+Forrest Gump,1994,6-Jul-94,7.0,1990,142,678226465,"['Drama', 'Romance']",PG-13
+Doctor Strange,2016,25-Oct-16,10.0,2010,115,677796076,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",PG-13
+The Sixth Sense,1999,6-Aug-99,8.0,1990,107,672806432,"['Drama', 'Mystery', 'Thriller']",PG-13
+Man of Steel,2013,12-Jun-13,6.0,2010,143,668045518,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Ice Age: The Meltdown,2006,29-Mar-06,3.0,2000,91,667094506,"['Adventure', 'Animation', 'Comedy', 'Family']",PG
+Kung Fu Panda 2,2011,26-May-11,5.0,2010,90,665692281,"['Action', 'Adventure', 'Animation', 'Comedy', 'Drama', 'Family', 'Fantasy']",PG
+Justice League,2017,26-May-11,5.0,2010,90,657926987,"['Action', 'Adventure', 'Animation', 'Comedy', 'Drama', 'Family', 'Fantasy']",PG
+Big Hero 6,2014,25-Oct-14,10.0,2010,102,657869686,"['Action', 'Adventure', 'Animation', 'Comedy', 'Drama', 'Family', 'Fantasy', 'Sci-Fi']",PG
+Fantastic Beasts: The Crimes of Grindelwald,2018,12-Oct-18,10.0,2010,134,654855901,"['Adventure', 'Family', 'Fantasy']",PG-13
+Pirates of the Caribbean: The Curse of the Black Pearl,2003,9-Jul-03,7.0,2000,143,654264015,"['Action', 'Adventure', 'Fantasy']",PG-13
+Men in Black 3,2012,23-May-12,5.0,2010,106,654213485,"['Action', 'Adventure', 'Comedy', 'Sci-Fi']",PG-13
+Star Wars: Episode II - Attack of the Clones,2002,16-May-02,5.0,2000,142,653779970,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",PG
+The Hunger Games: Mockingjay - Part 2,2015,18-Nov-15,11.0,2010,137,653428261,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",PG-13
+Thor: The Dark World,2013,30-Oct-13,10.0,2010,112,644783140,"['Action', 'Adventure', 'Fantasy']",PG-13
+Sing,2016,2-Dec-16,12.0,2010,108,634338384,"['Animation', 'Comedy', 'Family', 'Musical']",PG
+Kung Fu Panda,2008,5-Jun-08,6.0,2000,92,632083197,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",PG
+The Incredibles,2004,5-Nov-04,11.0,2000,115,631607053,"['Action', 'Adventure', 'Animation', 'Family']",PG
+The Martian,2015,30-Sep-15,9.0,2010,144,630620818,"['Adventure', 'Drama', 'Sci-Fi']",PG-13
+Hancock,2008,2-Jul-08,7.0,2000,92,629443428,"['Action', 'Comedy', 'Drama', 'Fantasy']",PG-13
+Water Gate Bridge,2022,2-Jul-08,7.0,2020,92,626571697,"['Action', 'Comedy', 'Drama', 'Fantasy']",PG-13
+Fast Five,2011,20-Apr-11,4.0,2010,130,626137675,"['Action', 'Crime', 'Thriller']",PG-13
+Iron Man 2,2010,28-Apr-10,4.0,2010,124,623933331,"['Action', 'Sci-Fi']",PG-13
+Ratatouille,2007,28-Jun-07,6.0,2000,111,623726085,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",G
+Ant-Man and the Wasp,2018,28-Jun-07,6.0,2010,111,622674139,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",G
+How to Train Your Dragon 2,2014,5-Jun-14,6.0,2010,102,621537519,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",PG
+Logan,2017,1-Mar-17,3.0,2010,137,619179950,"['Action', 'Drama', 'Sci-Fi', 'Thriller']",R
+The Lost World: Jurassic Park,1997,23-May-97,5.0,1990,129,618638999,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Casino Royale,2006,15-Nov-06,11.0,2000,144,616505162,"['Action', 'Adventure', 'Thriller']",PG-13
+The Passion of the Christ,2004,25-Feb-04,2.0,2000,127,612054506,['Drama'],R
+Life of Pi,2012,21-Nov-12,11.0,2010,127,609016565,"['Adventure', 'Drama', 'Fantasy']",PG
+Ready Player One,2018,28-Mar-18,3.0,2010,140,607274134,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Transformers: The Last Knight,2017,21-Jun-17,6.0,2010,154,605425157,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Madagascar: Escape 2 Africa,2008,30-Oct-08,10.0,2000,89,603900354,"['Adventure', 'Animation', 'Comedy', 'Family']",PG
+War of the Worlds,2005,29-Jun-05,6.0,2000,116,603873119,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Tangled,2010,24-Nov-10,11.0,2010,100,592462816,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Musical', 'Romance']",PG
+Quantum of Solace,2008,31-Oct-08,10.0,2000,106,589580482,"['Action', 'Adventure', 'Mystery', 'Thriller']",PG-13
+Men in Black,1997,2-Jul-97,7.0,1990,98,589390539,"['Action', 'Adventure', 'Comedy', 'Sci-Fi']",PG-13
+The Croods,2013,15-Mar-13,3.0,2010,98,587235983,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",PG
+The Hangover Part II,2011,25-May-11,5.0,2010,102,586764305,['Comedy'],R
+Iron Man,2008,30-Apr-08,4.0,2000,126,585796247,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+I Am Legend,2007,12-Dec-07,12.0,2000,101,585410052,"['Action', 'Drama', 'Horror', 'Sci-Fi', 'Thriller']",PG-13
+"Monsters, Inc.",2001,2-Nov-01,11.0,2000,92,579707738,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",G
+Operation Red Sea,2018,2-Nov-01,11.0,2010,92,579330426,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",G
+Night at the Museum,2006,2-Nov-01,11.0,2000,92,574481229,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",G
+Fifty Shades of Grey,2015,11-Feb-15,2.0,2010,125,569651467,"['Drama', 'Romance', 'Thriller']",R
+The Little Mermaid,2023,11-Feb-15,2.0,2020,125,569592298,"['Drama', 'Romance', 'Thriller']",R
+Mission: Impossible - Dead Reckoning Part One,2023,8-Jul-23,7.0,2020,163,567535383,"['Action', 'Adventure', 'Thriller']",PG-13
+Kong: Skull Island,2017,8-Mar-17,3.0,2010,118,566652812,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",PG-13
+The Smurfs,2011,27-Jul-11,7.0,2010,103,563749323,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",PG
+Cars 2,2011,22-Jun-11,6.0,2010,106,559852396,"['Adventure', 'Animation', 'Comedy', 'Crime', 'Family', 'Mystery', 'Sci-Fi', 'Sport']",G
+King Kong,2005,14-Dec-05,12.0,2000,187,556906378,"['Action', 'Adventure', 'Romance']",PG-13
+Puss in Boots,2011,27-Oct-11,10.0,2010,90,554987477,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Mystery', 'Romance']",PG
+The Mermaid,2016,27-Oct-11,10.0,2010,90,553810228,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Mystery', 'Romance']",PG
+Armageddon,1998,1-Jul-98,7.0,1990,151,553709788,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",PG-13
+The Day After Tomorrow,2004,26-May-04,5.0,2000,124,552639571,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",PG-13
+Ted,2012,29-Jun-12,6.0,2010,106,549368315,['Comedy'],R
+American Sniper,2014,25-Dec-14,12.0,2010,133,547459020,"['Action', 'Biography', 'Drama', 'War']",R
+Mission: Impossible II,2000,24-May-00,5.0,2000,123,546388108,"['Action', 'Adventure', 'Thriller']",PG-13
+Detective Chinatown 2,2018,24-May-00,5.0,2010,123,544185156,"['Action', 'Adventure', 'Thriller']",PG-13
+X-Men: Apocalypse,2016,18-May-16,5.0,2010,144,543934105,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Sherlock Holmes: A Game of Shadows,2011,18-May-16,5.0,2010,144,543848418,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Despicable Me,2010,8-Jul-10,7.0,2010,95,543157985,"['Adventure', 'Animation', 'Comedy', 'Crime', 'Family', 'Sci-Fi']",PG
+Cinderella,2015,11-Mar-15,3.0,2010,105,542358331,"['Adventure', 'Drama', 'Family', 'Fantasy', 'Romance']",PG
+Madagascar,2005,11-Mar-15,3.0,2000,105,542063846,"['Adventure', 'Drama', 'Family', 'Fantasy', 'Romance']",PG
+World War Z,2013,19-Jun-13,6.0,2010,116,540455876,"['Action', 'Adventure', 'Horror', 'Sci-Fi']",PG-13
+Brave,2012,21-Jun-12,6.0,2010,93,538983207,"['Action', 'Adventure', 'Animation', 'Comedy', 'Drama', 'Family', 'Fantasy', 'Mystery']",PG
+Star Wars: Episode V - The Empire Strikes Back,1980,21-May-80,5.0,1980,124,538375067,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",PG
+The Simpsons Movie,2007,25-Jul-07,7.0,2000,87,536414293,"['Adventure', 'Animation', 'Comedy']",PG-13
+The Revenant,2015,25-Dec-15,12.0,2010,156,532950503,"['Action', 'Adventure', 'Drama', 'Western']",R
+The Meg,2018,8-Aug-18,8.0,2010,113,529338515,"['Action', 'Horror', 'Sci-Fi', 'Thriller']",PG-13
+Ralph Breaks the Internet,2018,21-Nov-18,11.0,2010,112,529323962,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Sci-Fi']",PG
+Hotel Transylvania 3: Summer Vacation,2018,28-Jun-18,6.0,2010,97,528583774,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Horror']",PG
+The Boss Baby,2017,28-Jun-18,6.0,2010,97,527965936,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Horror']",PG
+Dunkirk,2017,19-Jul-17,7.0,2010,106,527016307,"['Action', 'Drama', 'History', 'Thriller', 'War']",PG-13
+The Grinch,2018,7-Nov-18,11.0,2010,85,526760632,"['Animation', 'Comedy', 'Family', 'Fantasy', 'Musical']",PG
+Godzilla,2014,14-May-14,5.0,2010,123,524976069,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",PG-13
+How to Train Your Dragon: The Hidden World,2019,3-Jan-19,1.0,2010,104,524580592,"['Action', 'Adventure', 'Animation', 'Comedy', 'Drama', 'Family', 'Fantasy']",PG
+Sherlock Holmes,2009,1-Jan-09,1.0,2000,128,524028679,"['Action', 'Adventure', 'Mystery']",PG-13
+Meet the Fockers,2004,22-Dec-04,12.0,2000,115,522657936,"['Comedy', 'Romance']",PG-13
+WALL·E,2008,26-Jun-08,6.0,2000,98,521311890,"['Adventure', 'Animation', 'Family', 'Sci-Fi']",
+Kung Fu Panda 3,2016,28-Jan-16,1.0,2010,95,521170825,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",PG
+Terminator 2: Judgment Day,1991,3-Jul-91,7.0,1990,137,520881154,"['Action', 'Sci-Fi']",R
+Ant-Man,2015,10-Jul-15,7.0,2010,117,519311965,"['Action', 'Comedy', 'Sci-Fi']",PG-13
+Venom: Let There Be Carnage,2021,10-Jul-15,7.0,2020,117,506863592,"['Action', 'Comedy', 'Sci-Fi']",PG-13
+Ghost,1990,13-Jul-90,7.0,1990,127,505703557,"['Drama', 'Fantasy', 'Romance', 'Thriller']",
+Aladdin,1992,13-Nov-92,11.0,1990,90,504050219,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Musical', 'Romance']",
+Gladiator,2000,4-May-00,5.0,2000,155,503162313,"['Action', 'Adventure', 'Drama']",R
+Rio 2,2014,20-Mar-14,3.0,2010,101,498781117,"['Adventure', 'Animation', 'Comedy', 'Family', 'Music', 'Musical']",G
+Troy,2004,12-May-04,5.0,2000,163,497409852,['Drama'],R
+Toy Story 2,1999,19-Nov-99,11.0,1990,92,497375381,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",
+How to Train Your Dragon,2010,18-Mar-10,3.0,2010,98,494879471,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",PG
+Twister,1996,10-May-96,5.0,1990,113,494580615,"['Action', 'Adventure', 'Thriller']",
+Oz the Great and Powerful,2013,6-Mar-13,3.0,2010,130,493311825,"['Adventure', 'Family', 'Fantasy']",PG
+Clash of the Titans,2010,31-Mar-10,3.0,2010,106,493214993,"['Action', 'Adventure', 'Fantasy']",PG-13
+Maleficent: Mistress of Evil,2019,16-Oct-19,10.0,2010,119,491730089,"['Adventure', 'Family', 'Fantasy', 'Romance']",PG
+War for the Planet of the Apes,2017,11-Jul-17,7.0,2010,140,490719763,"['Action', 'Adventure', 'Drama', 'Sci-Fi', 'Thriller']",PG-13
+Shrek,2001,16-May-01,5.0,2000,90,488441368,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Romance']",PG
+Mr. & Mrs. Smith,2005,8-Jun-05,6.0,2000,120,487287646,"['Action', 'Comedy', 'Crime', 'Thriller']",PG-13
+Elemental,2023,8-Jun-05,6.0,2020,120,486797988,"['Action', 'Comedy', 'Crime', 'Thriller']",PG-13
+Angels & Demons,2009,13-May-09,5.0,2000,138,485930816,"['Action', 'Mystery', 'Thriller']",PG-13
+Teenage Mutant Ninja Turtles,2014,7-Aug-14,8.0,2010,101,485004754,"['Action', 'Adventure', 'Comedy', 'Sci-Fi']",PG-13
+Bruce Almighty,2003,23-May-03,5.0,2000,101,484592874,"['Comedy', 'Fantasy']",PG-13
+The King's Speech,2010,26-Nov-10,11.0,2010,118,484068861,"['Biography', 'Drama', 'History']",R
+Rio,2011,4-Apr-11,4.0,2010,96,483866772,"['Adventure', 'Animation', 'Comedy', 'Family', 'Music', 'Musical']",PG
+Saving Private Ryan,1998,24-Jul-98,7.0,1990,169,482349603,"['Drama', 'War']",R
+Rise of the Planet of the Apes,2011,3-Aug-11,8.0,2010,105,481800873,"['Action', 'Drama', 'Sci-Fi', 'Thriller']",PG-13
+Puss in Boots: The Last Wish,2022,3-Aug-11,8.0,2020,105,481045837,"['Action', 'Drama', 'Sci-Fi', 'Thriller']",PG-13
+Home Alone,1990,16-Nov-90,11.0,1990,103,476684675,"['Comedy', 'Family']",
+Jaws,1975,20-Jun-75,6.0,1970,124,476512065,"['Adventure', 'Mystery', 'Thriller']",
+Ant-Man and the Wasp: Quantumania,2023,20-Jun-75,6.0,2020,124,476071180,"['Adventure', 'Mystery', 'Thriller']",
+Hotel Transylvania 2,2015,21-Sep-15,9.0,2010,89,475186706,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Horror']",PG
+Star Wars: Episode VI - Return of the Jedi,1983,25-May-83,5.0,1980,131,475106177,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",PG
+Charlie and the Chocolate Factory,2005,14-Jul-05,7.0,2000,115,474968763,"['Adventure', 'Comedy', 'Family', 'Fantasy', 'Musical']",PG
+Indiana Jones and the Last Crusade,1989,24-May-89,5.0,1980,127,474171806,"['Action', 'Adventure']",PG-13
+San Andreas,2015,22-May-15,5.0,2010,114,474009154,"['Action', 'Adventure', 'Thriller']",PG-13
+It Chapter Two,2019,4-Sep-19,9.0,2010,169,473122525,"['Drama', 'Fantasy', 'Horror']",R
+La La Land,2016,8-Dec-16,12.0,2010,128,471977336,"['Comedy', 'Drama', 'Music', 'Musical', 'Romance']",PG-13
+Wreck-It Ralph,2012,1-Nov-12,11.0,2010,101,471222889,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Sci-Fi']",PG
+Godzilla vs. Kong,2021,1-Nov-12,11.0,2020,101,470116094,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Sci-Fi']",PG
+The Hangover,2009,5-Jun-09,6.0,2000,100,469328079,['Comedy'],R
+Lucy,2014,25-Jul-14,7.0,2010,89,469058574,"['Action', 'Sci-Fi', 'Thriller']",R
+The Lego Movie,2014,6-Feb-14,2.0,2010,100,468266122,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Sci-Fi']",PG
+Bumblebee,2018,19-Dec-18,12.0,2010,114,467989645,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Star Trek Into Darkness,2013,8-May-13,5.0,2010,132,467365246,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+The Matrix,1999,31-Mar-99,3.0,1990,136,467222728,"['Action', 'Sci-Fi']",R
+Pretty Woman,1990,23-Mar-90,3.0,1990,119,463406268,"['Comedy', 'Romance']",R
+Cars,2006,8-Jun-06,6.0,2000,117,461991867,"['Adventure', 'Animation', 'Comedy', 'Family', 'Sport']",
+The Eight Hundred,2020,8-Jun-06,6.0,2020,117,461421559,"['Adventure', 'Animation', 'Comedy', 'Family', 'Sport']",
+X-Men: The Last Stand,2006,24-May-06,5.0,2000,104,460435291,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Moon Man,2022,24-May-06,5.0,2020,104,460435291,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+National Treasure: Book of Secrets,2007,24-May-06,5.0,2000,104,459242249,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Mission: Impossible,1996,22-May-96,5.0,1990,110,457696391,"['Action', 'Adventure', 'Thriller']",PG-13
+300,2006,7-Mar-07,3.0,2000,117,456082343,"['Action', 'Drama']",R
+The Last Samurai,2003,5-Dec-03,12.0,2000,154,454627263,"['Action', 'Drama']",R
+Demon Slayer the Movie: Mugen Train,2020,5-Dec-03,12.0,2020,154,453210959,"['Action', 'Drama']",R
+Dying to Survive,2018,5-Dec-03,12.0,2010,154,451183391,"['Action', 'Drama']",R
+Ocean's Eleven,2001,7-Dec-01,12.0,2000,116,450717150,"['Crime', 'Thriller']",PG-13
+"My People, My Country",2019,7-Dec-01,12.0,2010,116,450064993,"['Crime', 'Thriller']",PG-13
+Pokémon: Detective Pikachu,2019,3-May-19,5.0,2010,104,449762638,"['Action', 'Adventure', 'Comedy', 'Family', 'Mystery', 'Sci-Fi']",PG
+Thor,2011,21-Apr-11,4.0,2010,115,449326618,"['Action', 'Fantasy']",PG-13
+Pearl Harbor,2001,25-May-01,5.0,2000,183,449220945,"['Action', 'Drama', 'History', 'Romance', 'War']",PG-13
+Tarzan,1999,16-Jun-99,6.0,1990,88,448191819,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family', 'Music']",G
+Men in Black II,2002,3-Jul-02,7.0,2000,88,445135288,"['Action', 'Adventure', 'Comedy', 'Mystery', 'Sci-Fi']",PG-13
+The Bourne Ultimatum,2007,3-Aug-07,8.0,2000,115,444100035,"['Action', 'Mystery', 'Thriller']",PG-13
+The Mummy Returns,2001,4-May-01,5.0,2000,130,443280904,"['Action', 'Adventure', 'Fantasy', 'Thriller']",PG-13
+Alvin and the Chipmunks: The Squeakquel,2009,21-Dec-09,12.0,2000,88,443140005,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family', 'Fantasy', 'Music', 'Musical']",PG
+Les Misérables,2012,19-Dec-12,12.0,2010,158,442299309,"['Drama', 'Musical', 'Romance']",PG-13
+The Exorcist,1973,19-Dec-12,12.0,1970,158,441306145,"['Drama', 'Musical', 'Romance']",PG-13
+Mrs. Doubtfire,1993,24-Nov-93,11.0,1990,125,441286195,"['Comedy', 'Drama']",PG-13
+Terminator Genisys,2015,25-Jun-15,6.0,2010,126,440603537,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",PG-13
+Warcraft,2016,25-May-16,5.0,2010,123,439048914,"['Action', 'Adventure', 'Fantasy']",PG-13
+Transformers: Rise of the Beasts,2023,25-May-16,5.0,2020,123,438966392,"['Action', 'Adventure', 'Fantasy']",PG-13
+A Star Is Born,2018,3-Oct-18,10.0,2010,136,436233122,"['Drama', 'Music', 'Romance']",R
+The Greatest Showman,2017,15-Dec-17,12.0,2010,105,435732529,"['Biography', 'Drama', 'Musical']",PG
+Terminator 3: Rise of the Machines,2003,2-Jul-03,7.0,2000,109,433371112,"['Action', 'Sci-Fi']",R
+Shang-Chi and the Legend of the Ten Rings,2021,2-Jul-03,7.0,2020,109,432243292,"['Action', 'Sci-Fi']",R
+Die Another Day,2002,20-Nov-02,11.0,2000,133,431971116,"['Action', 'Adventure', 'Thriller']",PG-13
+The Secret Life of Pets 2,2019,24-May-19,5.0,2010,86,431058604,"['Adventure', 'Animation', 'Comedy', 'Family']",PG
+Cast Away,2000,22-Dec-00,12.0,2000,143,429632142,"['Adventure', 'Drama', 'Romance']",PG-13
+Rampage,2018,11-Apr-18,4.0,2010,107,428028233,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+The Matrix Revolutions,2003,5-Nov-03,11.0,2000,129,427344325,"['Action', 'Sci-Fi']",R
+The Intouchables,2011,5-Nov-03,11.0,2010,129,426588510,"['Action', 'Sci-Fi']",R
+John Wick: Chapter 4,2023,5-Nov-03,11.0,2020,129,426531897,"['Action', 'Sci-Fi']",R
+Bad Boys for Life,2020,15-Jan-20,1.0,2020,124,426505244,"['Action', 'Comedy', 'Crime', 'Thriller']",R
+Django Unchained,2012,25-Dec-12,12.0,2010,165,426074373,"['Drama', 'Western']",R
+Beauty and the Beast,1991,15-Nov-91,11.0,1990,84,424967620,"['Animation', 'Family', 'Fantasy', 'Musical', 'Romance']",
+Dances with Wolves,1990,9-Nov-90,11.0,1990,181,424208848,"['Adventure', 'Drama', 'Western']",
+"My People, My Homeland",2020,9-Nov-90,11.0,2020,181,424208848,"['Adventure', 'Drama', 'Western']",
+The Chronicles of Narnia: Prince Caspian,2008,15-May-08,5.0,2000,150,419665568,"['Action', 'Adventure', 'Family', 'Fantasy']",PG
+Sex and the City,2008,28-May-08,5.0,2000,145,418765519,"['Comedy', 'Drama', 'Romance']",R
+The Captain,2019,28-May-08,5.0,2010,145,417282021,"['Comedy', 'Drama', 'Romance']",R
+The Mummy,1999,7-May-99,5.0,1990,124,415933406,"['Action', 'Adventure', 'Fantasy']",PG-13
+The Chronicles of Narnia: The Voyage of the Dawn Treader,2010,2-Dec-10,12.0,2010,113,415686217,"['Adventure', 'Family', 'Fantasy']",PG
+Jason Bourne,2016,27-Jul-16,7.0,2010,123,415484914,"['Action', 'Thriller']",PG-13
+The Wolverine,2013,24-Jul-13,7.0,2010,126,414828246,"['Action', 'Sci-Fi']",PG-13
+Kingsman: The Secret Service,2014,30-Jan-15,1.0,2010,129,414351546,"['Action', 'Adventure', 'Comedy', 'Thriller']",R
+Night at the Museum: Battle of the Smithsonian,2009,20-May-09,5.0,2000,105,413106170,"['Adventure', 'Comedy', 'Family', 'Fantasy']",PG
+Batman,1989,23-Jun-89,6.0,1980,126,411569241,"['Action', 'Adventure']",
+The Bodyguard,1992,23-Jun-89,6.0,1990,126,411046449,"['Action', 'Adventure']",
+Pacific Rim,2013,11-Jul-13,7.0,2010,131,411002906,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Kingsman: The Golden Circle,2017,20-Sep-17,9.0,2010,141,410902662,"['Action', 'Adventure', 'Comedy', 'Crime', 'Thriller']",R
+The Mummy,2017,6-Jun-17,6.0,2010,111,409231607,"['Action', 'Adventure', 'Fantasy', 'Horror', 'Thriller']",PG-13
+Ice Age: Collision Course,2016,30-Jun-16,6.0,2010,94,408754975,"['Adventure', 'Animation', 'Comedy', 'Family', 'Sci-Fi']",PG
+Twilight,2008,20-Nov-08,11.0,2000,122,408430415,"['Drama', 'Fantasy', 'Romance']",PG-13
+Sing 2,2021,20-Nov-08,11.0,2020,122,408402141,"['Drama', 'Fantasy', 'Romance']",PG-13
+Signs,2002,2-Aug-02,8.0,2000,106,408247917,"['Drama', 'Mystery', 'Sci-Fi', 'Thriller']",PG-13
+X2,2003,30-Apr-03,4.0,2000,134,407711549,"['Action', 'Sci-Fi', 'Thriller']",PG-13
+Fantastic Beasts: The Secrets of Dumbledore,2022,30-Apr-03,4.0,2020,134,407150844,"['Action', 'Sci-Fi', 'Thriller']",PG-13
+Uncharted,2022,30-Apr-03,4.0,2020,134,407141258,"['Action', 'Sci-Fi', 'Thriller']",PG-13
+The Wolf of Wall Street,2013,25-Dec-13,12.0,2010,180,406878233,"['Biography', 'Comedy', 'Crime', 'Drama']",R
+Sonic the Hedgehog 2,2022,25-Dec-13,12.0,2020,180,405421518,"['Biography', 'Comedy', 'Crime', 'Drama']",R
+Alita: Battle Angel,2019,5-Feb-19,2.0,2010,122,404980543,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",PG-13
+The Mummy: Tomb of the Dragon Emperor,2008,30-Jul-08,7.0,2000,112,403449830,"['Action', 'Adventure', 'Fantasy', 'Horror']",PG-13
+Prometheus,2012,30-May-12,5.0,2010,124,403354469,"['Adventure', 'Mystery', 'Sci-Fi']",R
+Gone with the Wind,1939,30-May-12,5.0,1930,124,402382193,"['Adventure', 'Mystery', 'Sci-Fi']",R
+Mamma Mia! Here We Go Again,2018,18-Jul-18,7.0,2010,114,402264843,"['Comedy', 'Musical', 'Romance']",PG-13
+Eternals,2021,18-Jul-18,7.0,2020,114,402064899,"['Comedy', 'Musical', 'Romance']",PG-13
+Dune,2021,18-Jul-18,7.0,2020,114,402027830,"['Comedy', 'Musical', 'Romance']",PG-13
+TRON: Legacy,2010,16-Dec-10,12.0,2010,125,400063852,"['Action', 'Adventure', 'Sci-Fi']",PG
+Mission: Impossible III,2006,3-May-06,5.0,2000,126,398479497,"['Action', 'Adventure', 'Thriller']",PG-13
+Snow White and the Huntsman,2012,30-May-12,5.0,2010,127,396592829,"['Action', 'Adventure', 'Drama', 'Fantasy']",PG-13
+Grease,1978,16-Jun-78,6.0,1970,110,396271103,"['Comedy', 'Musical', 'Romance']",PG
+Toy Story,1995,16-Jun-78,6.0,1990,110,394436586,"['Comedy', 'Musical', 'Romance']",PG
+Black Adam,2022,16-Jun-78,6.0,2020,110,393252111,"['Comedy', 'Musical', 'Romance']",PG
+Solo: A Star Wars Story,2018,23-May-18,5.0,2010,135,392924807,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Superman Returns,2006,28-Jun-06,6.0,2000,154,391081192,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Meg 2: The Trench,2023,28-Jun-06,6.0,2020,154,390793895,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Robin Hood: Prince of Thieves,1991,14-Jun-91,6.0,1990,143,390493908,"['Action', 'Adventure', 'Drama', 'Romance']",
+Raiders of the Lost Ark,1981,12-Jun-81,6.0,1980,115,389925971,"['Action', 'Adventure']",PG
+Independence Day: Resurgence,2016,22-Jun-16,6.0,2010,120,389681935,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Live Free or Die Hard,2007,26-Jun-07,6.0,2000,128,388156011,"['Action', 'Thriller']",PG-13
+Monster Hunt,2015,26-Jun-07,6.0,2010,128,387053506,"['Action', 'Thriller']",PG-13
+Godzilla: King of the Monsters,2019,29-May-19,5.0,2010,132,386600138,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",PG-13
+Home,2015,19-Mar-15,3.0,2010,94,386041607,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Sci-Fi']",PG
+Star Trek,2009,6-May-09,5.0,2000,127,385680446,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+1917,2019,25-Dec-19,12.0,2010,119,384579472,"['Action', 'Drama', 'War']",R
+Happy Feet,2006,17-Nov-06,11.0,2000,108,384336108,"['Adventure', 'Animation', 'Comedy', 'Family', 'Music', 'Musical', 'Romance']",PG
+Spider-Man: Into the Spider-Verse,2018,12-Dec-18,12.0,2010,117,384298736,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Sci-Fi']",PG
+Cars 3,2017,12-Dec-18,12.0,2010,117,383930656,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Sci-Fi']",PG
+Back to the Future,1985,3-Jul-85,7.0,1980,116,383336762,"['Adventure', 'Comedy', 'Sci-Fi']",
+Ice Age,2002,14-Mar-02,3.0,2000,81,383257136,"['Adventure', 'Animation', 'Comedy', 'Family']",PG
+Indiana Jones and the Dial of Destiny,2023,14-Mar-02,3.0,2020,81,382891104,"['Adventure', 'Animation', 'Comedy', 'Family']",PG
+Your Name.,2016,14-Mar-02,3.0,2010,81,382238181,"['Adventure', 'Animation', 'Comedy', 'Family']",PG
+Fifty Shades Darker,2017,8-Feb-17,2.0,2010,118,381545846,"['Drama', 'Romance', 'Thriller']",R
+Monsters vs. Aliens,2009,19-Mar-09,3.0,2000,94,381509870,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Sci-Fi']",PG
+Mad Max: Fury Road,2015,7-May-15,5.0,2010,120,380080290,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",R
+Black Widow,2021,7-May-15,5.0,2020,120,379751655,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",R
+Godzilla,1998,20-May-98,5.0,1990,139,379014294,"['Action', 'Sci-Fi', 'Thriller']",PG-13
+True Lies,1994,15-Jul-94,7.0,1990,141,378882411,"['Action', 'Comedy', 'Thriller']",R
+Slumdog Millionaire,2008,12-Nov-08,11.0,2000,120,378410542,"['Crime', 'Drama', 'Romance']",R
+Once Upon a Time in Hollywood,2019,25-Jul-19,7.0,2010,161,377617598,"['Comedy', 'Drama']",R
+Taken 2,2012,27-Sep-12,9.0,2010,92,376152455,"['Action', 'Crime', 'Thriller']",PG-13
+G.I. Joe: Retaliation,2013,27-Mar-13,3.0,2010,110,375740705,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",PG-13
+Shark Tale,2004,23-Sep-04,9.0,2000,90,374583879,"['Adventure', 'Animation', 'Comedy', 'Family', 'Thriller']",PG
+What Women Want,2000,15-Dec-00,12.0,2000,127,374111707,"['Comedy', 'Fantasy', 'Romance']",PG-13
+The Adventures of Tintin,2011,15-Dec-00,12.0,2010,127,373993951,"['Comedy', 'Fantasy', 'Romance']",PG-13
+Batman Begins,2005,15-Jun-05,6.0,2000,140,373672993,"['Action', 'Crime', 'Drama']",PG-13
+Penguins of Madagascar,2014,14-Nov-14,11.0,2010,92,373515621,"['Action', 'Adventure', 'Animation', 'Comedy', 'Crime', 'Family', 'Sci-Fi']",PG
+X-Men Origins: Wolverine,2009,29-Apr-09,4.0,2000,107,373062864,"['Action', 'Sci-Fi']",PG-13
+The Golden Compass,2007,5-Dec-07,12.0,2000,113,372234864,"['Adventure', 'Family', 'Fantasy']",PG-13
+Fifty Shades Freed,2018,7-Feb-18,2.0,2010,105,371985018,"['Drama', 'Romance', 'Thriller']",R
+Hitch,2005,11-Feb-05,2.0,2000,118,371594210,"['Comedy', 'Romance']",PG-13
+Terminator Salvation,2009,20-May-09,5.0,2000,115,371353001,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Captain America: The First Avenger,2011,22-Jul-11,7.0,2010,124,370569774,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Edge of Tomorrow,2014,28-May-14,5.0,2010,113,370541256,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+There's Something About Mary,1998,15-Jul-98,7.0,1990,119,369884651,"['Comedy', 'Romance']",R
+Gone Girl,2014,2-Oct-14,10.0,2010,149,369330363,"['Drama', 'Mystery', 'Thriller']",R
+The Fugitive,1993,2-Oct-14,10.0,1990,149,368875760,"['Drama', 'Mystery', 'Thriller']",R
+Jurassic Park III,2001,5-Jul-01,7.0,2000,92,368780809,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",PG-13
+My Big Fat Greek Wedding,2002,19-Apr-02,4.0,2000,95,368744044,"['Comedy', 'Drama', 'Romance']",PG
+Shazam!,2019,3-Apr-19,4.0,2010,132,367799011,"['Action', 'Adventure', 'Comedy', 'Fantasy']",PG-13
+Hello Mr. Billionaire,2018,3-Apr-19,4.0,2010,132,367799011,"['Action', 'Adventure', 'Comedy', 'Fantasy']",PG-13
+Die Hard with a Vengeance,1995,19-May-95,5.0,1990,128,366101666,"['Action', 'Adventure', 'Thriller']",R
+The Nun,2018,5-Sep-18,9.0,2010,96,365582797,"['Horror', 'Mystery', 'Thriller']",R
+Alvin and the Chipmunks,2007,12-Dec-07,12.0,2000,92,365352546,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Music', 'Musical']",PG
+Tenet,2020,12-Dec-07,12.0,2020,92,365304105,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Music', 'Musical']",PG
+Notting Hill,1999,28-May-99,5.0,1990,124,363889678,"['Comedy', 'Drama', 'Romance']",PG-13
+A Bug's Life,1998,20-Nov-98,11.0,1990,95,363258859,"['Adventure', 'Animation', 'Comedy', 'Family']",
+Night at the Museum: Secret of the Tomb,2014,17-Dec-14,12.0,2010,98,363204635,"['Adventure', 'Comedy', 'Family', 'Fantasy']",PG
+Ocean's Twelve,2004,9-Dec-04,12.0,2000,125,362744280,"['Crime', 'Thriller']",PG-13
+Planet of the Apes,2001,27-Jul-01,7.0,2000,120,362211740,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",PG-13
+The Hangover Part III,2013,23-May-13,5.0,2010,100,362000072,"['Comedy', 'Crime']",R
+The World Is Not Enough,1999,19-Nov-99,11.0,1990,128,361832400,"['Action', 'Adventure', 'Thriller']",PG-13
+Monster Hunt 2,2018,19-Nov-99,11.0,2010,128,361682618,"['Action', 'Adventure', 'Thriller']",PG-13
+Fast & Furious,2009,2-Apr-09,4.0,2000,107,360366870,"['Action', 'Crime', 'Thriller']",PG-13
+Noah,2014,20-Mar-14,3.0,2010,138,359200044,"['Action', 'Adventure', 'Drama']",PG-13
+The Karate Kid,2010,10-Jun-10,6.0,2010,140,359126022,"['Action', 'Drama', 'Family', 'Sport']",PG
+Home Alone 2: Lost in New York,1992,10-Jun-10,6.0,1990,140,358994850,"['Action', 'Drama', 'Family', 'Sport']",PG
+Hotel Transylvania,2012,20-Sep-12,9.0,2010,91,358375603,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Horror', 'Romance']",PG
+Minority Report,2002,20-Jun-02,6.0,2000,145,358372926,"['Action', 'Crime', 'Mystery', 'Sci-Fi', 'Thriller']",PG-13
+Top Gun,1986,20-Jun-02,6.0,1980,145,357288178,"['Action', 'Crime', 'Mystery', 'Sci-Fi', 'Thriller']",PG-13
+Spirited Away,2001,20-Jun-02,6.0,2000,145,357277400,"['Action', 'Crime', 'Mystery', 'Sci-Fi', 'Thriller']",PG-13
+The Legend of Tarzan,2016,29-Jun-16,6.0,2010,110,356700357,"['Action', 'Adventure', 'Drama', 'Fantasy', 'Romance']",PG-13
+American Beauty,1999,15-Sep-99,9.0,1990,122,356296601,['Drama'],R
+Apollo 13,1995,15-Sep-99,9.0,1990,122,355237933,['Drama'],R
+Rain Man,1988,16-Dec-88,12.0,1980,133,354825435,['Drama'],
+The Great Gatsby,2013,10-May-13,5.0,2010,143,353659851,"['Drama', 'Romance']",PG-13
+Dumbo,2019,27-Mar-19,3.0,2010,112,353284621,"['Adventure', 'Family', 'Fantasy']",PG
+"I, Robot",2004,15-Jul-04,7.0,2000,115,353133898,"['Action', 'Mystery', 'Sci-Fi', 'Thriller']",PG-13
+Basic Instinct,1992,20-Mar-92,3.0,1990,127,352927224,"['Drama', 'Mystery', 'Thriller']",R
+Murder on the Orient Express,2017,3-Nov-17,11.0,2010,114,352794081,"['Crime', 'Drama', 'Mystery']",PG-13
+X-Men: First Class,2011,1-Jun-11,6.0,2010,131,352616690,"['Action', 'Sci-Fi']",PG-13
+The Angry Birds Movie,2016,11-May-16,5.0,2010,97,352333929,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family']",PG
+GoldenEye,1995,11-May-16,5.0,1990,97,352194034,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family']",PG
+Catch Me If You Can,2002,25-Dec-02,12.0,2000,141,352114312,"['Biography', 'Crime', 'Drama']",PG-13
+Now You See Me,2013,29-May-13,5.0,2010,115,351723989,"['Crime', 'Mystery', 'Thriller']",PG-13
+Hannibal,2001,9-Feb-01,2.0,2000,131,351692268,"['Crime', 'Drama', 'Thriller']",R
+The Mask,1994,29-Jul-94,7.0,1990,101,351583407,"['Action', 'Comedy', 'Crime', 'Fantasy']",PG-13
+Peter Rabbit,2018,8-Feb-18,2.0,2010,95,351496066,"['Adventure', 'Comedy', 'Crime', 'Drama', 'Family', 'Fantasy']",PG
+Speed,1994,10-Jun-94,6.0,1990,116,350448145,"['Action', 'Adventure', 'Thriller']",R
+Dinosaur,2000,19-May-00,5.0,2000,82,349822765,"['Adventure', 'Animation', 'Drama', 'Family', 'Fantasy']",PG
+Mary Poppins Returns,2018,19-Dec-18,12.0,2010,130,349546142,"['Adventure', 'Comedy', 'Family', 'Fantasy', 'Musical']",PG
+Deep Impact,1998,19-Dec-18,12.0,1990,130,349464664,"['Adventure', 'Comedy', 'Family', 'Fantasy', 'Musical']",PG
+The Lorax,2012,1-Mar-12,3.0,2010,86,349183316,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family', 'Fantasy', 'Musical']",PG
+The Maze Runner,2014,11-Sep-14,9.0,2010,113,348319861,"['Action', 'Mystery', 'Sci-Fi', 'Thriller']",PG-13
+The Smurfs 2,2013,31-Jul-13,7.0,2010,105,347545360,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",PG
+National Treasure,2004,19-Nov-04,11.0,2000,131,347512318,"['Action', 'Adventure', 'Mystery', 'Thriller']",PG
+Rush Hour 2,2001,3-Aug-01,8.0,2000,90,347325802,"['Action', 'Comedy', 'Crime', 'Thriller']",PG-13
+Trolls,2016,13-Oct-16,10.0,2010,92,347182886,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Music', 'Musical']",PG
+xXx: Return of Xander Cage,2017,18-Jan-17,1.0,2010,107,346118277,"['Action', 'Adventure', 'Thriller']",PG-13
+Pocahontas,1995,18-Jan-17,1.0,1990,107,346079773,"['Action', 'Adventure', 'Thriller']",PG-13
+How the Grinch Stole Christmas,2000,17-Nov-00,11.0,2000,104,345823032,"['Comedy', 'Family', 'Fantasy']",PG
+Star Trek Beyond,2016,20-Jul-16,7.0,2010,122,343471816,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",PG-13
+Alvin and the Chipmunks: Chipwrecked,2011,14-Dec-11,12.0,2010,87,342695435,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Music', 'Musical']",G
+Wanted,2008,26-Jun-08,6.0,2000,110,342463063,"['Action', 'Crime', 'Thriller']",R
+The Flintstones,1994,27-May-94,5.0,1990,91,341631208,"['Comedy', 'Family', 'Fantasy']",PG
+A Quiet Place,2018,4-Apr-18,4.0,2010,90,340952971,"['Drama', 'Horror', 'Sci-Fi']",PG-13
+Enchanted,2007,21-Nov-07,11.0,2000,107,340487862,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Musical', 'Romance']",PG
+Over the Hedge,2006,21-Nov-07,11.0,2000,107,339795890,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Musical', 'Romance']",PG
+300: Rise of an Empire,2014,5-Mar-14,3.0,2010,102,337580051,"['Action', 'Drama', 'War']",R
+Batman Forever,1995,16-Jun-95,6.0,1990,121,336567158,"['Action', 'Adventure']",PG-13
+Prince of Persia: The Sands of Time,2010,16-Jul-09,7.0,2010,116,336365676,"['Action', 'Adventure', 'Fantasy']",PG-13
+The Curious Case of Benjamin Button,2008,25-Dec-08,12.0,2000,166,335802786,"['Drama', 'Fantasy', 'Romance']",PG-13
+Journey 2: The Mysterious Island,2012,19-Jan-12,1.0,2010,94,335287748,"['Action', 'Adventure', 'Comedy', 'Family', 'Fantasy', 'Sci-Fi']",PG
+The Rock,1996,7-Jun-96,6.0,1990,136,335062621,"['Action', 'Adventure', 'Thriller']",R
+The Great Wall,2016,16-Dec-16,12.0,2010,103,334933831,"['Action', 'Adventure', 'Fantasy', 'Thriller']",PG-13
+Now You See Me 2,2016,16-Dec-16,12.0,2010,103,334897606,"['Action', 'Adventure', 'Fantasy', 'Thriller']",PG-13
+Never Say Die,2017,16-Dec-16,12.0,2010,103,334897606,"['Action', 'Adventure', 'Fantasy', 'Thriller']",PG-13
+Bridget Jones's Diary,2001,13-Apr-01,4.0,2000,97,334272563,"['Comedy', 'Drama', 'Romance']",R
+Fantastic Four,2005,6-Jul-05,7.0,2000,106,333535934,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",PG-13
+Indiana Jones and the Temple of Doom,1984,23-May-84,5.0,1980,118,333107271,"['Action', 'Adventure']",
+Tomorrow Never Dies,1997,23-May-84,5.0,1990,118,333011068,"['Action', 'Adventure']",
+Back to the Future Part II,1989,22-Nov-89,11.0,1980,108,332500002,"['Adventure', 'Comedy', 'Sci-Fi']",
+The Good Dinosaur,2015,22-Nov-89,11.0,2010,108,332207671,"['Adventure', 'Comedy', 'Sci-Fi']",
+Free Guy,2021,22-Nov-89,11.0,2020,108,331526598,"['Adventure', 'Comedy', 'Sci-Fi']",
+22 Jump Street,2014,5-Jun-14,6.0,2010,112,331333876,"['Action', 'Comedy', 'Crime']",R
+Meet the Parents,2000,6-Oct-00,10.0,2000,108,330444045,"['Comedy', 'Romance']",PG-13
+Who Framed Roger Rabbit,1988,24-Jun-88,6.0,1980,104,329803958,"['Adventure', 'Animation', 'Comedy', 'Crime', 'Family', 'Fantasy', 'Mystery']",
+Black Swan,2010,3-Dec-10,12.0,2010,108,329398046,"['Drama', 'Thriller']",R
+The Perfect Storm,2000,30-Jun-00,6.0,2000,130,328718434,"['Action', 'Adventure', 'Drama', 'Thriller']",PG-13
+John Wick: Chapter 3 - Parabellum,2019,15-May-19,5.0,2010,130,328349387,"['Action', 'Crime', 'Thriller']",R
+Crocodile Dundee,1986,15-May-19,5.0,1980,130,328203506,"['Action', 'Crime', 'Thriller']",R
+Crazy Alien,2019,15-May-19,5.0,2010,130,328203506,"['Action', 'Crime', 'Thriller']",R
+Se7en,1995,22-Sep-95,9.0,1990,127,327333559,"['Crime', 'Drama', 'Mystery', 'Thriller']",R
+The Devil Wears Prada,2006,30-Jun-06,6.0,2000,109,326706115,"['Comedy', 'Drama']",PG-13
+Taken 3,2014,1-Jan-15,1.0,2010,108,326479141,"['Action', 'Crime', 'Thriller']",PG-13
+The Hunchback of Notre Dame,1996,21-Jun-96,6.0,1990,91,325338851,"['Animation', 'Drama', 'Family', 'Musical', 'Romance']",
+A Christmas Carol,2009,9-Sep-09,9.0,2000,96,325286646,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family', 'Fantasy']",PG
+The SpongeBob Movie: Sponge Out of Water,2015,28-Jan-15,1.0,2010,92,325186032,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",PG
+Schindler's List,1993,15-Dec-93,12.0,1990,195,322161245,"['Biography', 'Drama', 'History']",R
+Megamind,2010,28-Oct-10,10.0,2010,95,321885765,"['Action', 'Animation', 'Comedy', 'Crime', 'Family', 'Mystery', 'Sci-Fi', 'Thriller']",PG
+The Conjuring 2,2016,8-Jun-16,6.0,2010,134,321834351,"['Horror', 'Mystery', 'Thriller']",R
+Green Book,2018,16-Nov-18,11.0,2010,130,321752656,"['Biography', 'Comedy', 'Drama', 'Music']",PG-13
+Lethal Weapon 3,1992,15-May-92,5.0,1990,118,321731527,"['Action', 'Crime', 'Thriller']",R
+Robin Hood,2010,12-May-10,5.0,2010,140,321669741,"['Action', 'Adventure', 'Drama', 'History']",PG-13
+Inglourious Basterds,2009,19-Aug-09,8.0,2000,153,321457747,"['Adventure', 'Drama', 'War']",R
+101 Dalmatians,1996,19-Aug-09,8.0,1990,153,320689294,"['Adventure', 'Drama', 'War']",R
+The Conjuring,2013,18-Jul-13,7.0,2010,112,320406242,"['Horror', 'Mystery', 'Thriller']",R
+Fatal Attraction,1987,18-Jul-13,7.0,1980,112,320145693,"['Horror', 'Mystery', 'Thriller']",R
+Sonic the Hedgehog,2020,12-Feb-20,2.0,2020,99,319715683,"['Action', 'Adventure', 'Comedy', 'Family', 'Fantasy', 'Sci-Fi']",PG
+The Last Airbender,2010,1-Jul-10,7.0,2010,103,319713881,"['Action', 'Adventure', 'Family', 'Fantasy']",PG
+The Proposal,2009,17-Jun-09,6.0,2000,108,317375031,"['Comedy', 'Drama', 'Romance']",PG-13
+The Polar Express,2004,10-Nov-04,11.0,2000,100,316897787,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Musical']",
+A Beautiful Mind,2001,21-Dec-01,12.0,2000,135,316791257,"['Biography', 'Drama']",PG-13
+Beverly Hills Cop,1984,21-Dec-01,12.0,1980,135,316360478,"['Biography', 'Drama']",PG-13
+Air Force One,1997,25-Jul-97,7.0,1990,124,315156409,"['Action', 'Drama', 'Thriller']",R
+Wonder,2017,25-Jul-97,7.0,2010,124,315025930,"['Action', 'Drama', 'Thriller']",R
+The Expendables 2,2012,15-Aug-12,8.0,2010,103,314975955,"['Action', 'Adventure', 'Thriller']",R
+Chicken Little,2005,4-Nov-05,11.0,2000,81,314432837,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Sci-Fi']",G
+As Good as It Gets,1997,23-Dec-97,12.0,1990,139,314178011,"['Comedy', 'Drama', 'Romance']",PG-13
+Austin Powers: The Spy Who Shagged Me,1999,9-Jun-99,6.0,1990,95,313701294,"['Action', 'Adventure', 'Comedy', 'Crime']",PG-13
+Knives Out,2019,21-Nov-19,11.0,2010,130,312897920,"['Comedy', 'Crime', 'Drama', 'Mystery', 'Thriller']",PG-13
+Maze Runner: The Scorch Trials,2015,9-Sep-15,9.0,2010,131,312296056,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",PG-13
+Resident Evil: The Final Chapter,2016,23-Dec-16,12.0,2010,107,312242626,"['Action', 'Horror', 'Sci-Fi']",R
+The Lego Batman Movie,2017,2-Feb-17,2.0,2010,104,312136671,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Sci-Fi']",PG
+Ocean's Thirteen,2007,2-Feb-17,2.0,2000,104,311312624,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Sci-Fi']",PG
+Little Fockers,2010,22-Dec-10,12.0,2010,98,310650585,"['Comedy', 'Romance']",PG-13
+Bolt,2008,21-Nov-08,11.0,2000,96,309979994,"['Adventure', 'Animation', 'Comedy', 'Crime', 'Drama', 'Family', 'Sci-Fi']",PG
+Ransom,1996,21-Nov-08,11.0,1990,96,309492681,"['Adventure', 'Animation', 'Comedy', 'Crime', 'Drama', 'Family', 'Sci-Fi']",PG
+Runaway Bride,1999,30-Jul-99,7.0,1990,116,309460292,"['Comedy', 'Romance']",PG
+The Blind Side,2009,20-Nov-09,11.0,2000,129,309231694,"['Biography', 'Drama', 'Sport']",PG-13
+The Ex-File 3: Return of the Exes,2017,20-Nov-09,11.0,2010,129,307592427,"['Biography', 'Drama', 'Sport']",PG-13
+The Fault in Our Stars,2014,4-Jun-14,6.0,2010,126,307166834,"['Drama', 'Romance']",PG-13
+The Pursuit of Happyness,2006,15-Dec-06,12.0,2000,117,307127625,"['Biography', 'Drama']",PG-13
+Rise of the Guardians,2012,21-Nov-12,11.0,2010,97,306941670,"['Action', 'Adventure', 'Animation', 'Comedy', 'Drama', 'Family', 'Fantasy']",PG
+Close Encounters of the Third Kind,1977,21-Nov-12,11.0,1970,97,306889114,"['Action', 'Adventure', 'Animation', 'Comedy', 'Drama', 'Family', 'Fantasy']",PG
+Chicago,2002,26-Feb-02,2.0,2000,113,306776732,"['Comedy', 'Crime', 'Musical']",PG-13
+Annabelle: Creation,2017,3-Aug-17,8.0,2010,109,306515884,"['Horror', 'Mystery', 'Thriller']",R
+Bridesmaids,2011,12-May-11,5.0,2010,125,306442085,['Comedy'],R
+Skyscraper,2018,11-Jul-18,7.0,2010,102,304868961,"['Action', 'Adventure', 'Thriller']",PG-13
+A Good Day to Die Hard,2013,6-Feb-13,2.0,2010,98,304654182,"['Action', 'Thriller']",R
+Mulan,1998,6-Feb-13,2.0,1990,98,304320254,"['Action', 'Thriller']",R
+Dangal,2016,6-Feb-13,2.0,2010,98,303723636,"['Action', 'Thriller']",R
+Passengers,2016,21-Dec-16,12.0,2010,116,303144152,"['Drama', 'Romance', 'Sci-Fi', 'Thriller']",PG-13
+Battleship,2012,11-Apr-12,4.0,2010,131,303025485,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",PG-13
+Liar Liar,1997,11-Apr-12,4.0,1990,131,302710615,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",PG-13
+G.I. Joe: The Rise of Cobra,2009,5-Aug-09,8.0,2000,118,302469017,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",PG-13
+Wrath of the Titans,2012,28-Mar-12,3.0,2010,99,301970083,"['Action', 'Adventure', 'Fantasy']",PG-13
+Fantastic Four: Rise of the Silver Surfer,2007,13-Jun-07,6.0,2000,92,301913131,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",PG
+Hook,1991,11-Dec-91,12.0,1990,142,300854823,"['Adventure', 'Comedy', 'Family', 'Fantasy']",
+Superman,1978,15-Dec-78,12.0,1970,143,300478449,"['Action', 'Adventure', 'Sci-Fi']",PG
+Rocky IV,1985,15-Dec-78,12.0,1980,143,300473716,"['Action', 'Adventure', 'Sci-Fi']",PG
+Rambo: First Blood Part II,1985,15-Dec-78,12.0,1980,143,300400432,"['Action', 'Adventure', 'Sci-Fi']",PG
+Resident Evil: Afterlife,2010,9-Sep-10,9.0,2010,96,300228084,"['Action', 'Horror', 'Sci-Fi']",R
+Van Helsing,2004,5-May-04,5.0,2000,131,300157638,"['Action', 'Adventure', 'Fantasy', 'Thriller']",PG-13
+Stuart Little,1999,17-Dec-99,12.0,1990,84,300135367,"['Adventure', 'Comedy', 'Family', 'Fantasy']",PG
+Beverly Hills Cop II,1987,17-Dec-99,12.0,1980,84,299965036,"['Adventure', 'Comedy', 'Family', 'Fantasy']",PG
+Alice Through the Looking Glass,2016,25-May-16,5.0,2010,113,299820798,"['Adventure', 'Family', 'Fantasy', 'Mystery']",PG
+My Best Friend's Wedding,1997,20-Jun-97,6.0,1990,105,299288605,"['Comedy', 'Drama', 'Romance']",PG-13
+Real Steel,2011,20-Jun-97,6.0,2010,105,299268508,"['Comedy', 'Drama', 'Romance']",PG-13
+Horton Hears a Who!,2008,12-Mar-08,3.0,2000,86,298572799,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family', 'Fantasy', 'Music']",
+Ocean's Eight,2018,7-Jun-18,6.0,2010,110,297795726,"['Action', 'Comedy', 'Crime']",PG-13
+A Quiet Place Part II,2020,7-Jun-18,6.0,2020,110,297372261,"['Action', 'Comedy', 'Crime']",PG-13
+The Divergent Series: Insurgent,2015,18-Mar-15,3.0,2010,119,297002527,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",PG-13
+Look Who's Talking,1989,18-Mar-15,3.0,1980,119,296999813,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",PG-13
+Austin Powers in Goldmember,2002,26-Jul-02,7.0,2000,94,296938801,"['Action', 'Adventure', 'Comedy', 'Crime']",PG-13
+Ghostbusters,1984,8-Jun-84,6.0,1980,105,296578797,"['Action', 'Comedy', 'Fantasy', 'Sci-Fi']",
+Miss Peregrine's Home for Peculiar Children,2016,28-Sep-16,9.0,2010,127,296482446,"['Adventure', 'Drama', 'Family', 'Fantasy', 'Thriller']",PG-13
+X-Men,2000,13-Jul-00,7.0,2000,104,296339528,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Ferdinand,2017,13-Dec-17,12.0,2010,108,296069199,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family']",PG
+Shutter Island,2010,18-Feb-10,2.0,2010,138,294805697,"['Mystery', 'Thriller']",R
+Doctor Dolittle,1998,18-Feb-10,2.0,1990,138,294456605,"['Mystery', 'Thriller']",R
+Bee Movie,2007,1-Nov-07,11.0,2000,91,293514336,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family']",PG
+Salt,2010,21-Jul-10,7.0,2010,100,293503354,"['Action', 'Thriller']",PG-13
+G-Force,2009,23-Jul-09,7.0,2000,88,292817898,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Sci-Fi']",PG
+The Departed,2006,5-Oct-06,10.0,2000,151,291480452,"['Crime', 'Drama', 'Thriller']",R
+What Lies Beneath,2000,21-Jul-00,7.0,2000,130,291420351,"['Drama', 'Horror', 'Mystery', 'Thriller']",PG-13
+Pacific Rim: Uprising,2018,21-Mar-18,3.0,2010,111,290930148,"['Action', 'Adventure', 'Fantasy', 'Horror', 'Sci-Fi', 'Thriller']",PG-13
+The Bourne Supremacy,2004,23-Jul-04,7.0,2000,108,290835269,"['Action', 'Mystery', 'Thriller']",PG-13
+Sex and the City 2,2010,27-May-10,5.0,2010,146,290745055,"['Comedy', 'Drama', 'Romance']",R
+Shakespeare in Love,1998,11-Dec-98,12.0,1990,123,289317794,"['Comedy', 'Drama', 'History', 'Romance']",R
+Divergent,2014,20-Mar-14,3.0,2010,139,288885818,"['Action', 'Adventure', 'Mystery', 'Sci-Fi']",PG-13
+Coming to America,1988,20-Mar-14,3.0,1980,139,288752301,"['Action', 'Adventure', 'Mystery', 'Sci-Fi']",PG-13
+Elvis,2022,20-Mar-14,3.0,2020,139,288670284,"['Action', 'Adventure', 'Mystery', 'Sci-Fi']",PG-13
+Wedding Crashers,2005,14-Jul-05,7.0,2000,119,288485135,"['Comedy', 'Romance']",R
+Maze Runner: The Death Cure,2018,17-Jan-18,1.0,2010,143,288175335,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",PG-13
+Casper,1995,17-Jan-18,1.0,1990,143,287928194,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",PG-13
+American Pie 2,2001,10-Aug-01,8.0,2000,108,287553595,['Comedy'],R
+Pitch Perfect 2,2015,7-May-15,5.0,2010,115,287144079,"['Comedy', 'Music']",PG-13
+The Green Mile,1999,10-Dec-99,12.0,1990,189,286801374,"['Crime', 'Drama', 'Fantasy', 'Mystery']",R
+Oblivion,2013,10-Apr-13,4.0,2010,124,286168572,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Elysium,2013,8-Aug-13,8.0,2010,109,286140700,"['Action', 'Drama', 'Sci-Fi', 'Thriller']",R
+Lethal Weapon 4,1998,10-Jul-98,7.0,1990,127,285444603,"['Action', 'Crime', 'Thriller']",R
+John Carter,2012,7-Mar-12,3.0,2010,132,284139100,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Turbo,2013,10-Jul-13,7.0,2010,96,282570682,"['Adventure', 'Animation', 'Comedy', 'Family', 'Sport']",PG
+Paddington,2014,27-Nov-14,11.0,2010,95,282438834,"['Adventure', 'Comedy', 'Family', 'Fantasy']",PG
+The Tourist,2010,9-Dec-10,12.0,2010,103,278780441,"['Action', 'Thriller']",PG-13
+Split,2016,18-Jan-17,1.0,2010,117,278454417,"['Horror', 'Thriller']",PG-13
+Scary Movie,2000,7-Jul-00,7.0,2000,88,278019771,['Comedy'],R
+xXx,2002,9-Aug-02,8.0,2000,124,277448382,"['Action', 'Adventure', 'Thriller']",PG-13
+The Bourne Legacy,2012,8-Aug-12,8.0,2010,135,276144750,"['Action', 'Adventure', 'Thriller']",PG-13
+Mr. Peabody & Sherman,2014,7-Feb-14,2.0,2010,92,275698039,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family', 'Fantasy', 'History', 'Sci-Fi']",PG
+Scooby-Doo,2002,14-Jun-02,6.0,2000,89,275678613,"['Adventure', 'Comedy', 'Family', 'Fantasy', 'Mystery']",PG
+Lincoln,2012,9-Nov-12,11.0,2010,150,275293450,"['Biography', 'Drama', 'History', 'War']",PG-13
+Creed III,2023,9-Nov-12,11.0,2020,150,275248615,"['Biography', 'Drama', 'History', 'War']",PG-13
+Lara Croft: Tomb Raider,2001,15-Jun-01,6.0,2000,100,274703340,"['Action', 'Adventure', 'Fantasy', 'Thriller']",PG-13
+Tomb Raider,2018,7-Mar-18,3.0,2010,119,274650803,"['Action', 'Adventure', 'Fantasy', 'Thriller']",PG-13
+The Expendables,2010,12-Aug-10,8.0,2010,103,274470394,"['Action', 'Adventure', 'Thriller']",R
+Cloudy with a Chance of Meatballs 2,2013,26-Sep-13,9.0,2010,95,274325949,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Sci-Fi']",PG
+The Nutty Professor,1996,28-Jun-96,6.0,1990,95,273961019,"['Comedy', 'Romance', 'Sci-Fi']",PG-13
+Jerry Maguire,1996,13-Dec-96,12.0,1990,139,273552592,"['Comedy', 'Drama', 'Romance', 'Sport']",R
+Bad Boys II,2003,18-Jul-03,7.0,2000,147,273339556,"['Action', 'Comedy', 'Crime', 'Thriller']",R
+Lilo & Stitch,2002,21-Jun-02,6.0,2000,85,273144151,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family', 'Fantasy', 'Sci-Fi']",PG
+The Silence of the Lambs,1991,14-Feb-91,2.0,1990,118,272742922,"['Crime', 'Drama', 'Thriller']",
+Grown Ups,2010,24-Jun-10,6.0,2010,102,271457301,['Comedy'],PG-13
+Neighbors,2014,8-May-14,5.0,2010,97,270665134,['Comedy'],R
+The Firm,1993,8-May-14,5.0,1990,97,270248367,['Comedy'],R
+We're the Millers,2013,29-Aug-12,8.0,2010,110,269994119,"['Comedy', 'Crime']",R
+Gran Torino,2008,12-Dec-08,12.0,2000,116,269958228,['Drama'],R
+"10,000 BC",2008,5-Mar-08,3.0,2000,109,269784201,"['Action', 'Adventure', 'Drama', 'Fantasy', 'History']",PG-13
+American Gangster,2007,2-Nov-07,11.0,2000,157,269755430,"['Biography', 'Crime', 'Drama']",R
+The Flash,2023,2-Nov-07,11.0,2020,157,268533313,"['Biography', 'Crime', 'Drama']",R
+Epic,2013,16-May-13,5.0,2010,102,268426634,"['Action', 'Adventure', 'Animation', 'Family', 'Fantasy', 'Mystery']",PG
+Exodus: Gods and Kings,2014,4-Dec-14,12.0,2010,150,268175631,"['Action', 'Adventure', 'Drama', 'Fantasy']",PG-13
+Blade Runner 2049,2017,4-Oct-17,10.0,2010,164,267770708,"['Action', 'Drama', 'Mystery', 'Sci-Fi', 'Thriller']",R
+Bambi,1942,4-Oct-17,10.0,1940,164,267447150,"['Action', 'Drama', 'Mystery', 'Sci-Fi', 'Thriller']",R
+The Princess and the Frog,2009,25-Nov-09,11.0,2000,97,267045765,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Musical', 'Romance']",
+Batman Returns,1992,19-Jun-92,6.0,1990,126,266915287,"['Action', 'Crime', 'Fantasy']",PG-13
+Indecent Proposal,1993,19-Jun-92,6.0,1990,126,266614059,"['Action', 'Crime', 'Fantasy']",PG-13
+Something's Gotta Give,2003,12-Dec-03,12.0,2000,128,265328738,"['Comedy', 'Drama', 'Romance']",PG-13
+Bridget Jones: The Edge of Reason,2004,11-Nov-04,11.0,2000,108,265126918,"['Comedy', 'Drama', 'Romance']",R
+The Incredible Hulk,2008,11-Jun-08,6.0,2000,112,264770996,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Waterworld,1995,28-Jul-95,7.0,1990,135,264218220,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+The Truman Show,1998,28-Jul-95,7.0,1990,135,264118712,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Charlie's Angels,2000,3-Nov-00,11.0,2000,98,264105545,"['Action', 'Adventure', 'Comedy', 'Crime', 'Thriller']",PG-13
+The Fifth Element,1997,3-Nov-00,11.0,1990,98,263920180,"['Action', 'Adventure', 'Comedy', 'Crime', 'Thriller']",PG-13
+Jumanji,1995,15-Dec-95,12.0,1990,104,262821940,"['Adventure', 'Comedy', 'Family', 'Fantasy']",PG
+Parasite,2019,30-May-19,5.0,2010,132,262681282,"['Drama', 'Thriller']",R
+Borat,2006,23-Feb-06,2.0,2000,84,262552893,['Comedy'],R
+Robots,2005,10-Mar-05,3.0,2000,91,262511490,"['Adventure', 'Animation', 'Comedy', 'Family', 'Romance', 'Sci-Fi']",PG
+Knight and Day,2010,10-Mar-05,3.0,2010,91,261989769,"['Adventure', 'Animation', 'Comedy', 'Family', 'Romance', 'Sci-Fi']",PG
+Total Recall,1990,1-Jun-90,6.0,1990,113,261317921,"['Action', 'Adventure', 'Sci-Fi']",
+This Is It,2009,1-Jun-90,6.0,2000,113,261183588,"['Action', 'Adventure', 'Sci-Fi']",
+Terminator: Dark Fate,2019,23-Oct-19,10.0,2010,128,261119292,"['Action', 'Adventure', 'Sci-Fi']",R
+The Lone Ranger,2013,3-Jul-13,7.0,2010,150,260502115,"['Action', 'Adventure', 'Western']",PG-13
+Super 8,2011,9-Jun-11,6.0,2010,112,260095986,"['Action', 'Mystery', 'Sci-Fi', 'Thriller']",PG-13
+Halloween,2018,17-Oct-18,10.0,2010,106,259939835,"['Crime', 'Horror', 'Thriller']",R
+Mojin: The Lost Legend,2015,17-Dec-15,12.0,2010,127,259368448,"['Action', 'Adventure', 'Drama', 'Fantasy', 'Horror', 'Mystery', 'Thriller']",
+Charlie's Angels: Full Throttle,2003,26-Jun-03,6.0,2000,106,259175788,"['Action', 'Adventure', 'Comedy', 'Crime']",PG-13
+Rush Hour 3,2007,8-Aug-07,8.0,2000,91,258097122,"['Action', 'Comedy', 'Crime', 'Thriller']",PG-13
+The Full Monty,1997,15-Aug-97,8.0,1990,91,257938649,"['Comedy', 'Drama']",R
+Kung Fu Yoga,2017,26-Jan-17,1.0,2010,107,257753889,"['Action', 'Adventure', 'Comedy', 'Family', 'Fantasy', 'Mystery']",
+Annabelle,2014,23-Sep-14,9.0,2010,99,257589721,"['Horror', 'Mystery', 'Thriller']",R
+Encanto,2021,23-Sep-14,9.0,2020,99,256786742,"['Horror', 'Mystery', 'Thriller']",R
+The Village,2004,13-Aug-03,8.0,2000,108,256697520,"['Drama', 'Mystery', 'Thriller']",PG-13
+Lost in Hong Kong,2015,13-Aug-03,8.0,2010,108,256283912,"['Drama', 'Mystery', 'Thriller']",PG-13
+Erin Brockovich,2000,17-Mar-00,3.0,2000,131,256271286,"['Biography', 'Drama']",R
+Us,2019,20-Mar-19,3.0,2010,116,256067149,"['Horror', 'Mystery', 'Thriller']",R
+Pegasus,2019,20-Mar-19,3.0,2010,116,256067149,"['Horror', 'Mystery', 'Thriller']",R
+Get Out,2017,20-Mar-19,3.0,2010,116,255745157,"['Horror', 'Mystery', 'Thriller']",R
+Marley & Me,2008,20-Mar-19,3.0,2000,116,255743093,"['Horror', 'Mystery', 'Thriller']",R
+Cliffhanger,1993,28-May-93,5.0,1990,113,255000211,"['Action', 'Adventure', 'Thriller']",R
+Baahubali 2: The Conclusion,2017,28-May-93,5.0,2010,113,254158390,"['Action', 'Adventure', 'Thriller']",R
+Babe,1995,28-May-93,5.0,1990,113,254134910,"['Action', 'Adventure', 'Thriller']",R
+Men in Black: International,2019,12-Jun-19,6.0,2010,114,253890701,"['Action', 'Adventure', 'Comedy', 'Sci-Fi']",PG-13
+Wild Hogs,2007,12-Jun-19,6.0,2000,114,253625427,"['Action', 'Adventure', 'Comedy', 'Sci-Fi']",PG-13
+High School Musical 3: Senior Year,2008,22-Oct-08,10.0,2000,112,252909177,"['Comedy', 'Drama', 'Family', 'Music', 'Musical', 'Romance']",G
+Hercules,1997,15-Jun-97,6.0,1990,93,252712101,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Musical', 'Romance']",
+Dark Phoenix,2019,5-Jun-19,6.0,2010,113,252442974,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+True Grit,2010,22-Dec-10,12.0,2010,110,252276927,"['Drama', 'Western']",PG-13
+Dolittle,2020,8-Jan-20,1.0,2020,101,251410631,"['Adventure', 'Comedy', 'Family', 'Fantasy']",PG
+Bean,1997,17-Oct-97,10.0,1990,89,251212670,"['Adventure', 'Comedy', 'Family']",PG-13
+American Hustle,2013,12-Dec-13,12.0,2010,138,251171807,"['Crime', 'Drama']",R
+Enemy of the State,1998,20-Nov-98,11.0,1990,132,250849789,"['Action', 'Thriller']",R
+You've Got Mail,1998,18-Dec-98,12.0,1990,119,250821495,"['Comedy', 'Drama', 'Romance']",PG
+Eragon,2006,13-Dec-06,12.0,2000,104,250425512,"['Action', 'Adventure', 'Family', 'Fantasy']",PG
+Brother Bear,2003,13-Dec-06,12.0,2000,104,250397798,"['Action', 'Adventure', 'Family', 'Fantasy']",PG
+The Godfather,1972,15-Mar-72,3.0,1970,175,250341816,"['Crime', 'Drama']",
+The Mask of Zorro,1998,17-Jul-98,7.0,1990,136,250288523,"['Action', 'Adventure', 'Comedy', 'Romance', 'Thriller', 'Western']",PG-13
+The Bad Guys,2022,17-Jul-98,7.0,2020,136,250162278,"['Action', 'Adventure', 'Comedy', 'Romance', 'Thriller', 'Western']",PG-13
+The Ring,2002,18-Oct-02,10.0,2000,115,249348933,"['Horror', 'Mystery']",PG-13
+The Blair Witch Project,1999,16-Jul-99,7.0,1990,81,248639099,"['Horror', 'Mystery']",R
+Unbreakable,2000,22-Nov-00,11.0,2000,106,248118121,"['Drama', 'Mystery', 'Sci-Fi', 'Thriller']",PG-13
+Love Actually,2003,7-Nov-03,11.0,2000,135,247933248,"['Comedy', 'Drama', 'Romance']",R
+Journey to the West: The Demons Strike Back,2017,7-Nov-03,11.0,2010,135,247585244,"['Comedy', 'Drama', 'Romance']",R
+Dumb and Dumber,1994,16-Dec-94,12.0,1990,107,247290327,['Comedy'],
+Glass,2019,16-Jan-19,1.0,2010,129,246999039,"['Drama', 'Horror', 'Sci-Fi', 'Thriller']",PG-13
+Grown Ups 2,2013,11-Jul-13,7.0,2010,101,246984278,['Comedy'],PG-13
+The Peanuts Movie,2015,29-Oct-15,10.0,2010,88,246233113,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family']",G
+Rango,2011,2-Mar-11,3.0,2010,107,245724603,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family', 'Western']",PG
+Four Weddings and a Funeral,1994,11-Mar-94,3.0,1990,117,245700832,"['Comedy', 'Drama', 'Romance']",R
+Face/Off,1997,27-Jun-97,6.0,1990,138,245676146,"['Action', 'Crime', 'Sci-Fi', 'Thriller']",R
+Teenage Mutant Ninja Turtles: Out of the Shadows,2016,2-Jun-16,6.0,2010,112,245623848,"['Action', 'Adventure', 'Comedy', 'Sci-Fi']",PG-13
+Dark Shadows,2012,9-May-12,5.0,2010,113,245527149,"['Comedy', 'Family', 'Fantasy', 'Horror']",PG-13
+Hulk,2003,19-Jun-03,6.0,2000,138,245285165,"['Action', 'Sci-Fi']",PG-13
+The Bravest,2019,19-Jun-03,6.0,2010,138,245179562,"['Action', 'Sci-Fi']",PG-13
+Welcome to the Sticks,2008,19-Jun-03,6.0,2000,138,245179562,"['Action', 'Sci-Fi']",PG-13
+Back to the Future Part III,1990,25-May-90,5.0,1990,118,245077583,"['Adventure', 'Comedy', 'Sci-Fi', 'Western']",
+Pixels,2015,16-Jul-15,7.0,2010,105,244874809,"['Action', 'Comedy', 'Fantasy', 'Sci-Fi']",PG-13
+Hercules,2014,23-Jul-14,7.0,2010,98,244819862,"['Action', 'Adventure', 'Fantasy']",PG-13
+Rush Hour,1998,18-Sep-98,9.0,1990,98,244721064,"['Action', 'Comedy', 'Crime', 'Thriller']",PG-13
+Journey to the Center of the Earth,2008,10-Jul-08,7.0,2000,93,244232688,"['Action', 'Adventure', 'Family', 'Fantasy', 'Sci-Fi']",PG
+After Earth,2013,30-May-13,5.0,2010,100,243611982,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+A Few Good Men,1992,11-Dec-92,12.0,1990,138,243240178,"['Drama', 'Thriller']",R
+Cloudy with a Chance of Meatballs,2009,16-Sep-09,9.0,2000,90,243006126,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Sci-Fi']",PG
+8 Mile,2002,8-Nov-02,11.0,2000,110,242875078,"['Drama', 'Music']",R
+Daddy's Home,2015,8-Nov-02,11.0,2010,110,242786137,"['Drama', 'Music']",R
+RoboCop,2014,30-Jan-14,1.0,2010,117,242688965,"['Action', 'Crime', 'Sci-Fi', 'Thriller']",PG-13
+Eraser,1996,21-Jun-96,6.0,1990,115,242295562,"['Action', 'Crime', 'Thriller']",R
+Alien: Covenant,2017,9-May-17,5.0,2010,122,240891763,"['Horror', 'Sci-Fi', 'Thriller']",R
+Sully,2016,8-Sep-16,9.0,2010,96,240797623,"['Biography', 'Drama']",PG-13
+Assassin's Creed,2016,21-Dec-16,12.0,2010,115,240697856,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Click,2006,22-Jun-06,6.0,2000,107,240685326,"['Comedy', 'Drama', 'Fantasy', 'Romance']",PG-13
+Legend of Deification,2020,22-Jun-06,6.0,2020,107,240646355,"['Comedy', 'Drama', 'Fantasy', 'Romance']",PG-13
+Planes,2013,9-Aug-13,8.0,2010,91,240171783,"['Adventure', 'Animation', 'Comedy', 'Family', 'Sport']",PG
+Resident Evil: Retribution,2012,12-Sep-12,9.0,2010,95,240159255,"['Action', 'Horror', 'Sci-Fi', 'Thriller']",R
+Die Hard 2,1990,6-Jul-90,7.0,1990,124,240031274,"['Action', 'Thriller']",
+Crocodile Dundee II,1988,6-Jul-90,7.0,1980,124,239606210,"['Action', 'Thriller']",
+Bullet Train,2022,6-Jul-90,7.0,2020,124,239268602,"['Action', 'Thriller']",
+Crazy Rich Asians,2018,15-Aug-18,8.0,2010,120,238843729,"['Comedy', 'Drama', 'Romance']",PG-13
+Batman & Robin,1997,20-Jun-97,6.0,1990,125,238235719,"['Action', 'Sci-Fi']",PG-13
+Howl's Moving Castle,2004,20-Jun-97,6.0,2000,125,237536126,"['Action', 'Sci-Fi']",PG-13
+Gulliver's Travels,2010,22-Dec-10,12.0,2010,85,237382724,"['Adventure', 'Comedy', 'Family', 'Fantasy']",PG
+Gone in 60 Seconds,2000,9-Jun-00,6.0,2000,118,237202299,"['Action', 'Crime', 'Thriller']",PG-13
+Saturday Night Fever,1977,9-Jun-00,6.0,1970,118,237113184,"['Action', 'Crime', 'Thriller']",PG-13
+Silver Linings Playbook,2012,16-Nov-12,11.0,2010,122,236412453,"['Comedy', 'Drama', 'Romance']",R
+2 Fast 2 Furious,2003,5-Jun-03,6.0,2000,107,236350661,"['Action', 'Crime', 'Thriller']",PG-13
+Hidden Figures,2016,25-Dec-16,12.0,2010,127,235956898,"['Biography', 'Drama', 'History']",PG
+A.I. Artificial Intelligence,2001,29-Jun-01,6.0,2000,146,235926552,"['Drama', 'Sci-Fi']",PG-13
+Dead Poets Society,1989,29-Jun-01,6.0,1980,146,235860116,"['Drama', 'Sci-Fi']",PG-13
+Spy,2015,21-May-15,5.0,2010,120,235666219,"['Action', 'Comedy']",R
+American Pie,1999,9-Jul-99,7.0,1990,95,235483004,['Comedy'],R
+American Reunion,2012,4-Apr-12,4.0,2010,113,234989584,['Comedy'],R
+Big Daddy,1999,25-Jun-99,6.0,1990,93,234801895,"['Comedy', 'Drama']",PG-13
+Alvin and the Chipmunks: The Road Chip,2015,25-Jun-99,6.0,2010,93,234798636,"['Comedy', 'Drama']",PG-13
+The Imitation Game,2014,25-Jun-99,6.0,2010,93,233555708,"['Comedy', 'Drama']",PG-13
+Cruella,2021,25-Jun-99,6.0,2020,93,233503234,"['Comedy', 'Drama']",PG-13
+The Day the Earth Stood Still,2008,10-Dec-08,12.0,2000,104,233093859,"['Adventure', 'Drama', 'Sci-Fi', 'Thriller']",PG-13
+American Wedding,2003,1-Aug-03,8.0,2000,96,232722935,['Comedy'],R
+The Girl with the Dragon Tattoo,2011,21-Dec-11,12.0,2010,158,232617430,"['Crime', 'Drama', 'Mystery', 'Thriller']",R
+Juno,2007,5-Dec-07,12.0,2000,96,232372681,"['Comedy', 'Drama']",PG-13
+Argo,2012,11-Oct-12,10.0,2010,120,232325503,"['Biography', 'Drama', 'Thriller']",R
+Mr. Bean's Holiday,2007,11-Oct-12,10.0,2000,120,232225908,"['Biography', 'Drama', 'Thriller']",R
+The English Patient,1996,15-Nov-96,11.0,1990,162,231976425,"['Drama', 'Romance', 'War']",R
+Sister Act,1992,15-Nov-96,11.0,1990,162,231605150,"['Drama', 'Romance', 'War']",R
+Annabelle Comes Home,2019,23-Jun-19,6.0,2010,106,231252591,"['Horror', 'Mystery', 'Thriller']",R
+Constantine,2005,8-Feb-05,2.0,2000,121,230884728,"['Action', 'Fantasy', 'Horror', 'Mystery']",R
+Get Smart,2008,19-Jun-08,6.0,2000,110,230685453,"['Action', 'Adventure', 'Comedy']",PG-13
+Space Jam,1996,19-Jun-08,6.0,1990,110,230594962,"['Action', 'Adventure', 'Comedy']",PG-13
+Life Is Beautiful,1997,19-Jun-08,6.0,1990,110,230099013,"['Action', 'Adventure', 'Comedy']",PG-13
+The Heat,2013,27-Jun-13,6.0,2010,117,229930771,"['Action', 'Comedy', 'Crime']",R
+Ghostbusters,2016,11-Jul-16,7.0,2010,117,229147509,"['Action', 'Comedy', 'Fantasy', 'Sci-Fi']",PG-13
+Ghost Rider,2007,14-Feb-07,2.0,2000,110,228738393,"['Action', 'Fantasy', 'Thriller']",PG-13
+Goodbye Mr. Loser,2015,14-Feb-07,2.0,2010,110,228122928,"['Action', 'Fantasy', 'Thriller']",PG-13
+Paddington 2,2017,14-Feb-07,2.0,2010,110,227994792,"['Action', 'Fantasy', 'Thriller']",PG-13
+Sleepless in Seattle,1993,25-Jun-93,6.0,1990,105,227927165,"['Comedy', 'Drama', 'Romance']",PG
+Lethal Weapon 2,1989,25-Jun-93,6.0,1980,105,227853986,"['Comedy', 'Drama', 'Romance']",PG
+The Green Hornet,2011,12-Jan-11,1.0,2010,119,227817248,"['Action', 'Comedy', 'Crime']",PG-13
+Out of Africa,1985,12-Jan-11,1.0,1980,119,227514205,"['Action', 'Comedy', 'Crime']",PG-13
+Elf,2003,7-Nov-03,11.0,2000,97,227356156,"['Adventure', 'Comedy', 'Family', 'Fantasy', 'Romance']",PG
+Youth,2017,7-Nov-03,11.0,2010,97,227091290,"['Adventure', 'Comedy', 'Family', 'Fantasy', 'Romance']",PG
+Baby Driver,2017,28-Jun-17,6.0,2010,113,226945087,"['Action', 'Crime', 'Drama', 'Music']",R
+Immortals,2011,10-Nov-11,11.0,2010,110,226904017,"['Action', 'Drama', 'Fantasy', 'Romance']",R
+Taken,2008,27-Feb-08,2.0,2000,90,226837760,"['Action', 'Crime', 'Thriller']",PG-13
+Percy Jackson & the Olympians: The Lightning Thief,2010,10-Feb-10,2.0,2010,118,226497209,"['Adventure', 'Family', 'Fantasy']",PG
+Lightyear,2022,10-Feb-10,2.0,2020,118,226425420,"['Adventure', 'Family', 'Fantasy']",PG
+Hansel & Gretel: Witch Hunters,2013,17-Jan-13,1.0,2010,88,226349749,"['Action', 'Fantasy', 'Horror']",R
+Valerian and the City of a Thousand Planets,2017,20-Jul-17,7.0,2010,136,225973340,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",PG-13
+Good Will Hunting,1997,20-Jul-17,7.0,1990,136,225933435,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",PG-13
+Better Days,2019,20-Jul-17,7.0,2010,136,225918798,"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']",PG-13
+Ford v Ferrari,2019,13-Nov-19,11.0,2010,152,225508210,"['Action', 'Biography', 'Drama', 'Sport']",PG-13
+Jumper,2008,13-Feb-08,2.0,2000,88,225132113,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",PG-13
+The Social Network,2010,1-Oct-10,10.0,2010,120,224920375,"['Biography', 'Drama']",PG-13
+Chicken Run,2000,23-Jun-00,6.0,2000,84,224874960,"['Adventure', 'Animation', 'Comedy', 'Drama', 'Family']",
+Con Air,1997,6-Jun-97,6.0,1990,115,224012234,"['Action', 'Crime', 'Thriller']",R
+Interview with the Vampire: The Vampire Chronicles,1994,11-Nov-94,11.0,1990,123,223664608,"['Drama', 'Fantasy', 'Horror']",R
+Flightplan,2005,11-Nov-94,11.0,2000,123,223387299,"['Drama', 'Fantasy', 'Horror']",R
+Yes Man,2008,18-Dec-08,12.0,2000,104,223241637,"['Comedy', 'Romance']",PG-13
+Non-Stop,2014,19-Feb-14,2.0,2010,106,222809600,"['Action', 'Mystery', 'Thriller']",PG-13
+"Honey, I Shrunk the Kids",1989,19-Feb-14,2.0,1980,106,222724172,"['Action', 'Mystery', 'Thriller']",PG-13
+Fahrenheit 9/11,2004,23-Jun-04,6.0,2000,122,222446882,"['Documentary', 'Drama', 'War']",R
+Wild Wild West,1999,30-Jun-99,6.0,1990,106,222104681,"['Action', 'Comedy', 'Sci-Fi', 'Western']",PG-13
+"My Country, My Parents",2021,30-Jun-99,6.0,2020,106,221831086,"['Action', 'Comedy', 'Sci-Fi', 'Western']",PG-13
+Geostorm,2017,12-Oct-17,10.0,2010,109,221600160,"['Action', 'Sci-Fi', 'Thriller']",PG-13
+Presumed Innocent,1990,12-Oct-17,10.0,1990,109,221303188,"['Action', 'Sci-Fi', 'Thriller']",PG-13
+Jungle Cruise,2021,12-Oct-17,10.0,2020,109,220889446,"['Action', 'Sci-Fi', 'Thriller']",PG-13
+Scary Movie 3,2003,24-Oct-03,10.0,2000,84,220673217,['Comedy'],PG-13
+Collateral,2004,5-Aug-04,8.0,2000,120,220239925,"['Action', 'Crime', 'Drama', 'Thriller']",R
+Inferno,2016,12-Oct-16,10.0,2010,121,220021259,"['Action', 'Adventure', 'Crime', 'Drama', 'Mystery', 'Thriller']",PG-13
+Knocked Up,2007,1-Jun-07,6.0,2000,129,219922417,"['Comedy', 'Romance']",R
+Green Lantern,2011,15-Jun-11,6.0,2010,114,219851172,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+What Happens in Vegas,2008,7-May-08,5.0,2000,99,219375562,"['Comedy', 'Romance']",PG-13
+It's Complicated,2009,23-Dec-09,12.0,2000,121,219103655,"['Comedy', 'Drama', 'Romance']",R
+The Terminal,2004,18-Jun-04,6.0,2000,128,219100084,"['Comedy', 'Drama', 'Romance']",PG-13
+Little Women,2019,25-Dec-19,12.0,2010,135,218843645,"['Drama', 'Romance']",PG
+Captain Phillips,2013,11-Oct-13,10.0,2010,134,218791811,"['Action', 'Biography', 'Crime', 'Drama', 'Thriller']",PG-13
+The Prince of Egypt,1998,18-Dec-98,12.0,1990,99,218613188,"['Adventure', 'Animation', 'Drama', 'Family', 'Fantasy', 'Musical']",PG
+Jack Reacher,2012,20-Dec-12,12.0,2010,130,218340595,"['Action', 'Mystery', 'Thriller']",PG-13
+Kingdom of Heaven,2005,4-May-05,5.0,2000,144,218122627,"['Action', 'Adventure', 'Drama', 'History', 'War']",R
+The Emoji Movie,2017,27-Jul-17,7.0,2010,86,217776646,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Sci-Fi']",PG
+Smile,2022,27-Jul-17,7.0,2020,86,217408513,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Sci-Fi']",PG
+Too Cool to Kill,2022,27-Jul-17,7.0,2020,86,217254604,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Sci-Fi']",PG
+Dracula Untold,2014,9-Sep-14,9.0,2010,92,217124280,"['Action', 'Drama', 'Fantasy', 'Horror']",PG-13
+Central Intelligence,2016,15-Jun-16,6.0,2010,107,216972543,"['Action', 'Comedy', 'Crime']",PG-13
+Million Dollar Baby,2004,15-Dec-04,12.0,2000,132,216763646,"['Drama', 'Sport']",PG-13
+The Help,2011,10-Aug-11,8.0,2010,146,216639112,['Drama'],PG-13
+Twins,1988,9-Dec-88,12.0,1980,107,216614388,"['Comedy', 'Crime']",
+Valentine's Day,2010,10-Feb-10,2.0,2010,125,216528528,"['Comedy', 'Romance']",PG-13
+Bad Teacher,2011,17-Jun-11,6.0,2010,92,216197492,"['Comedy', 'Romance']",R
+A Little Red Flower,2020,17-Jun-11,6.0,2020,92,216197492,"['Comedy', 'Romance']",R
+The Croods: A New Age,2020,17-Jun-11,6.0,2020,92,215905815,"['Comedy', 'Romance']",R
+Clear and Present Danger,1994,5-Aug-94,8.0,1990,141,215887717,"['Action', 'Crime', 'Drama', 'Thriller']",PG-13
+One Hundred and One Dalmatians,1961,5-Aug-94,8.0,1960,141,215880014,"['Action', 'Crime', 'Drama', 'Thriller']",PG-13
+Ted 2,2015,19-Jun-15,6.0,2010,115,215863606,['Comedy'],R
+Bram Stoker's Dracula,1992,13-Nov-92,11.0,1990,128,215862692,"['Drama', 'Fantasy', 'Horror', 'Romance']",R
+Vertical Limit,2000,8-Dec-00,12.0,2000,124,215663859,"['Action', 'Adventure', 'Drama', 'Sport', 'Thriller']",PG-13
+Ghostbusters II,1989,8-Dec-00,12.0,1980,124,215394738,"['Action', 'Adventure', 'Drama', 'Sport', 'Thriller']",PG-13
+The Patriot,2000,28-Jun-00,6.0,2000,165,215294342,"['Action', 'Drama', 'History', 'War']",R
+The Sorcerer's Apprentice,2010,14-Jul-10,7.0,2010,109,215283742,"['Action', 'Adventure', 'Family', 'Fantasy']",PG
+Just Go with It,2011,9-Feb-11,2.0,2010,117,214945591,"['Comedy', 'Romance']",PG-13
+The Expendables 3,2014,9-Feb-11,2.0,2010,117,214657577,"['Comedy', 'Romance']",PG-13
+Dirty Dancing,1987,21-Aug-87,8.0,1980,100,214577242,"['Drama', 'Music', 'Romance']",
+Creed II,2018,21-Nov-18,11.0,2010,130,214215889,"['Action', 'Drama', 'Sport']",PG-13
+Smallfoot,2018,21-Nov-18,11.0,2010,130,214115531,"['Action', 'Drama', 'Sport']",PG-13
+Public Enemies,2009,24-Jun-09,6.0,2000,140,214104620,"['Action', 'Biography', 'Crime', 'Drama', 'History']",R
+The Bourne Identity,2002,14-Jun-02,6.0,2000,119,214034224,"['Action', 'Mystery', 'Thriller']",PG-13
+Disclosure,1994,9-Dec-94,12.0,1990,128,214015089,"['Drama', 'Thriller']",R
+"Crouching Tiger, Hidden Dragon",2000,8-Dec-00,12.0,2000,120,213977285,"['Action', 'Adventure', 'Drama', 'Fantasy', 'Romance']",PG-13
+Pulp Fiction,1994,14-Oct-94,10.0,1990,154,213928762,"['Crime', 'Drama']",R
+The Aviator,2004,17-Dec-04,12.0,2000,170,213719942,"['Biography', 'Drama']",PG-13
+Braveheart,1995,24-May-95,5.0,1990,178,213216216,"['Biography', 'Drama', 'History', 'War']",R
+Into the Woods,2014,24-Dec-14,12.0,2010,125,212902372,"['Adventure', 'Comedy', 'Drama', 'Fantasy', 'Musical']",PG
+Bedtime Stories,2008,24-Dec-08,12.0,2000,99,212874864,"['Adventure', 'Comedy', 'Family', 'Fantasy', 'Romance', 'Sci-Fi']",PG
+Miss Congeniality,2000,22-Dec-00,12.0,2000,109,212742720,"['Action', 'Comedy', 'Crime', 'Romance']",PG-13
+Sound of Freedom,2023,22-Dec-00,12.0,2020,109,212587173,"['Action', 'Comedy', 'Crime', 'Romance']",PG-13
+Entrapment,1999,30-Apr-99,4.0,1990,113,212404396,"['Action', 'Crime', 'Romance', 'Thriller']",PG-13
+Ace Ventura: When Nature Calls,1995,30-Apr-99,4.0,1990,113,212385533,"['Action', 'Crime', 'Romance', 'Thriller']",PG-13
+End of Days,1999,24-Nov-99,11.0,1990,122,211989043,"['Action', 'Fantasy', 'Horror', 'Thriller']",R
+Bridget Jones's Baby,2016,14-Sep-16,9.0,2010,123,211952420,"['Comedy', 'Drama', 'Romance']",R
+Fury,2014,17-Oct-14,10.0,2010,134,211822697,"['Action', 'Drama', 'War']",R
+Battle Los Angeles,2011,9-Mar-11,3.0,2010,116,211819354,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Australia,2008,26-Nov-08,11.0,2000,165,211787511,"['Adventure', 'Drama', 'Romance', 'War', 'Western']",PG-13
+Due Date,2010,3-Nov-10,11.0,2010,95,211780824,"['Comedy', 'Drama']",R
+Master and Commander: The Far Side of the World,2003,14-Nov-03,11.0,2000,138,211622535,"['Action', 'Adventure', 'Drama', 'War']",PG-13
+A Series of Unfortunate Events,2004,16-Dec-04,12.0,2000,108,211468235,"['Adventure', 'Comedy', 'Family', 'Fantasy']",PG
+The Little Mermaid,1989,16-Dec-04,12.0,1980,108,211343479,"['Adventure', 'Comedy', 'Family', 'Fantasy']",PG
+Nice View,2022,16-Dec-04,12.0,2020,108,211343479,"['Adventure', 'Comedy', 'Family', 'Fantasy']",PG
+District 9,2009,13-Aug-09,8.0,2000,112,210888950,"['Action', 'Sci-Fi', 'Thriller']",R
+Moonraker,1979,13-Aug-09,8.0,1970,112,210308099,"['Action', 'Sci-Fi', 'Thriller']",R
+The Others,2001,10-Aug-01,8.0,2000,101,209960527,"['Horror', 'Mystery', 'Thriller']",PG-13
+Horrible Bosses,2011,7-Jul-11,7.0,2010,98,209838559,"['Comedy', 'Crime']",R
+Us and Them,2018,7-Jul-11,7.0,2010,98,209838559,"['Comedy', 'Crime']",R
+Red Dragon,2002,4-Oct-02,10.0,2000,124,209196298,"['Crime', 'Drama', 'Thriller']",R
+Tomorrowland,2015,20-May-15,5.0,2010,130,209035668,"['Action', 'Adventure', 'Family', 'Fantasy', 'Mystery', 'Sci-Fi']",PG
+Me Before You,2016,1-Jun-16,6.0,2010,110,208314186,"['Drama', 'Romance']",PG-13
+Dungeons & Dragons: Honor Among Thieves,2023,1-Jun-16,6.0,2020,110,208177026,"['Drama', 'Romance']",PG-13
+Safe House,2012,8-Feb-12,2.0,2010,115,208076205,"['Action', 'Thriller']",R
+S.W.A.T.,2003,8-Aug-03,8.0,2000,117,207725639,"['Action', 'Adventure', 'Crime', 'Thriller']",PG-13
+DC League of Super-Pets,2022,8-Aug-03,8.0,2020,117,207557117,"['Action', 'Adventure', 'Crime', 'Thriller']",PG-13
+The Fast and the Furious,2001,22-Jun-01,6.0,2000,106,207517509,"['Action', 'Crime', 'Thriller']",PG-13
+Traffic,2000,22-Jun-01,6.0,2000,106,207515725,"['Action', 'Crime', 'Thriller']",PG-13
+Paranormal Activity 3,2011,19-Oct-11,10.0,2010,83,207039844,"['Horror', 'Mystery', 'Thriller']",R
+Philadelphia,1993,24-Dec-93,12.0,1990,125,206678440,['Drama'],PG-13
+The Conjuring: The Devil Made Me Do It,2021,24-Dec-93,12.0,2020,125,206431050,['Drama'],PG-13
+Sleepy Hollow,1999,19-Nov-99,11.0,1990,105,206071502,"['Fantasy', 'Horror', 'Mystery']",R
+The Holiday,2006,5-Dec-06,12.0,2000,136,205850169,"['Comedy', 'Romance']",PG-13
+The Jungle Book,1967,5-Dec-06,12.0,1960,136,205843612,"['Comedy', 'Romance']",PG-13
+Raging Fire,2021,5-Dec-06,12.0,2020,136,205842393,"['Comedy', 'Romance']",PG-13
+London Has Fallen,2016,2-Mar-16,3.0,2010,99,205754447,"['Action', 'Thriller']",R
+The Break-Up,2006,2-Jun-06,6.0,2000,106,205668210,"['Comedy', 'Drama', 'Romance']",PG-13
+Journey to the West,2013,2-Jun-06,6.0,2010,106,205637183,"['Comedy', 'Drama', 'Romance']",PG-13
+The Ugly Truth,2009,26-Feb-09,2.0,2000,96,205599393,"['Comedy', 'Romance']",R
+JFK,1991,26-Feb-09,2.0,1990,96,205405498,"['Comedy', 'Romance']",R
+Birds of Prey,2020,5-Feb-20,2.0,2020,109,205372791,"['Action', 'Comedy', 'Crime']",R
+White House Down,2013,27-Jun-13,6.0,2010,131,205366737,"['Action', 'Drama', 'Thriller']",PG-13
+A Dog's Purpose,2017,19-Jan-17,1.0,2010,100,205035819,"['Adventure', 'Comedy', 'Drama', 'Family', 'Fantasy']",PG
+Ponyo,2008,19-Jan-17,1.0,2000,100,204920882,"['Adventure', 'Comedy', 'Drama', 'Family', 'Fantasy']",PG
+Fun with Dick and Jane,2005,21-Dec-05,12.0,2000,90,204681899,"['Comedy', 'Crime']",PG-13
+Eat Pray Love,2010,13-Aug-10,8.0,2010,133,204594016,"['Biography', 'Drama', 'Romance']",PG-13
+The Addams Family,2019,11-Oct-19,10.0,2010,86,204394183,"['Animation', 'Comedy', 'Family', 'Fantasy', 'Horror']",PG
+Ghostbusters: Afterlife,2021,11-Oct-19,10.0,2020,86,204334455,"['Animation', 'Comedy', 'Family', 'Fantasy', 'Horror']",PG
+You Don't Mess with the Zohan,2008,5-Jun-08,6.0,2000,113,204313400,"['Action', 'Comedy']",PG-13
+The Nun II,2023,5-Jun-08,6.0,2020,113,204222000,"['Action', 'Comedy']",PG-13
+Hairspray,2007,5-Jun-08,6.0,2000,113,203627753,"['Action', 'Comedy']",PG-13
+King Arthur,2004,7-Jul-04,7.0,2000,126,203567857,"['Action', 'Adventure', 'Drama', 'History', 'War']",PG-13
+Yogi Bear,2010,17-Dec-10,12.0,2010,81,203509374,"['Adventure', 'Animation', 'Comedy', 'Family']",PG
+Everest,2015,10-Sep-15,9.0,2010,121,203427584,"['Action', 'Adventure', 'Biography', 'Drama', 'Thriller']",PG-13
+Vanilla Sky,2001,14-Dec-01,12.0,2000,136,203388341,"['Fantasy', 'Mystery', 'Romance', 'Sci-Fi', 'Thriller']",R
+Arrival,2016,10-Nov-16,11.0,2010,116,203388186,"['Drama', 'Mystery', 'Sci-Fi']",PG-13
+Need for Speed,2014,12-Mar-14,3.0,2010,132,203277636,"['Action', 'Adventure', 'Crime', 'Thriller']",PG-13
+Garfield,2004,11-Jun-04,6.0,2000,80,203172417,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",PG
+Patch Adams,1998,25-Dec-98,12.0,1990,115,202292902,"['Biography', 'Comedy', 'Drama', 'Romance']",PG-13
+Teenage Mutant Ninja Turtles,1990,30-Mar-90,3.0,1990,93,202084756,"['Action', 'Adventure', 'Comedy', 'Family', 'Sci-Fi']",
+Kindergarten Cop,1990,22-Dec-90,12.0,1990,111,201957688,"['Action', 'Comedy', 'Crime']",
+Straight Outta Compton,2015,14-Aug-15,8.0,2010,147,201634991,"['Biography', 'Drama', 'History', 'Music']",R
+21 Jump Street,2012,15-Mar-12,3.0,2010,109,201585328,"['Action', 'Comedy', 'Crime']",R
+Valkyrie,2008,25-Dec-08,12.0,2000,121,201545517,"['Drama', 'History', 'Thriller', 'War']",PG-13
+Open Season,2006,29-Sep-06,9.0,2000,86,200811689,"['Adventure', 'Animation', 'Comedy', 'Family']",PG
+Cats & Dogs,2001,4-Jul-01,7.0,2000,87,200687492,"['Action', 'Adventure', 'Comedy', 'Family', 'Fantasy']",PG
+The Hunt for Red October,1990,2-Mar-90,3.0,1990,135,200512643,"['Action', 'Adventure', 'Thriller']",
+Percy Jackson: Sea of Monsters,2013,7-Aug-13,8.0,2010,106,199850315,"['Adventure', 'Family', 'Fantasy']",PG
+The Lego Movie 2: The Second Part,2019,6-Feb-19,2.0,2010,107,199603202,"['Action', 'Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Musical', 'Sci-Fi']",PG
+Two Weeks Notice,2002,20-Dec-02,12.0,2000,101,199043471,"['Comedy', 'Romance']",PG-13
+RED,2010,14-Oct-10,10.0,2010,111,199006387,"['Action', 'Comedy', 'Crime', 'Thriller']",PG-13
+Shock Wave 2,2020,14-Oct-10,10.0,2020,111,199006387,"['Action', 'Comedy', 'Crime', 'Thriller']",PG-13
+City of Angels,1998,14-Oct-10,10.0,1990,111,198685114,"['Action', 'Comedy', 'Crime', 'Thriller']",PG-13
+The Pacifier,2005,4-Mar-05,3.0,2000,95,198636868,"['Action', 'Comedy', 'Drama', 'Family']",PG
+50 First Dates,2004,13-Feb-04,2.0,2000,99,198520934,"['Comedy', 'Drama', 'Romance']",PG-13
+Total Recall,2012,2-Aug-12,8.0,2010,118,198467168,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",PG-13
+The Island,2018,2-Aug-12,8.0,2010,118,198326350,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",PG-13
+The Impossible,2012,2-Aug-12,8.0,2010,118,198087212,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",PG-13
+Lost in Thailand,2012,2-Aug-12,8.0,2010,118,197757387,"['Action', 'Adventure', 'Sci-Fi', 'Thriller']",PG-13
+Christopher Robin,2018,1-Aug-18,8.0,2010,104,197744377,"['Adventure', 'Comedy', 'Drama', 'Family', 'Fantasy', 'Musical']",PG
+Jack the Giant Slayer,2013,28-Feb-13,2.0,2010,114,197687603,"['Action', 'Adventure', 'Fantasy']",PG-13
+Smurfs: The Lost Village,2017,29-Mar-17,3.0,2010,90,197183546,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",PG
+Chinese Doctors,2021,29-Mar-17,3.0,2020,90,197183546,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",PG
+Spy Kids 3: Game Over,2003,25-Jul-03,7.0,2000,84,197101678,"['Action', 'Adventure', 'Comedy', 'Family', 'Sci-Fi']",PG
+Panic Room,2002,29-Mar-02,3.0,2000,112,197079546,"['Crime', 'Drama', 'Thriller']",R
+The Other Woman,2014,17-Apr-14,4.0,2010,109,196710396,"['Comedy', 'Romance']",PG-13
+Stargate,1994,17-Apr-14,4.0,1990,109,196567262,"['Comedy', 'Romance']",PG-13
+Beowulf,2007,14-Nov-07,11.0,2000,115,196393745,"['Action', 'Adventure', 'Animation', 'Fantasy']",PG-13
+The Vow,2012,9-Feb-12,2.0,2010,104,196114570,"['Drama', 'Romance']",PG-13
+Anger Management,2003,11-Apr-03,4.0,2000,106,195745823,['Comedy'],PG-13
+Tropic Thunder,2008,13-Aug-08,8.0,2000,107,195702963,"['Action', 'Comedy', 'War']",R
+Rocketman,2019,24-May-19,5.0,2010,121,195320400,"['Biography', 'Drama', 'Music']",R
+The Pelican Brief,1993,24-May-19,5.0,1990,121,195268056,"['Biography', 'Drama', 'Music']",R
+The Shape of Water,2017,24-May-19,5.0,2010,121,195243464,"['Biography', 'Drama', 'Music']",R
+The BFG,2016,30-Jun-16,6.0,2010,117,195243411,"['Adventure', 'Family', 'Fantasy']",PG
+Downton Abbey,2019,12-Sep-19,9.0,2010,122,194694725,"['Drama', 'Romance']",PG
+The Intern,2015,24-Sep-15,9.0,2010,121,194564672,"['Comedy', 'Drama']",PG-13
+Wallace & Gromit: The Curse of the Were-Rabbit,2005,15-Sep-05,9.0,2000,85,194137403,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Mystery', 'Sci-Fi']",
+Gnomeo & Juliet,2011,15-Sep-05,9.0,2010,85,193967670,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy', 'Mystery', 'Sci-Fi']",
+The Sum of All Fears,2002,31-May-02,5.0,2000,124,193921372,"['Action', 'Drama', 'Thriller', 'War']",PG-13
+Gangs of New York,2002,20-Dec-02,12.0,2000,167,193772504,"['Crime', 'Drama']",R
+The Post,2017,22-Dec-17,12.0,2010,116,193764664,"['Biography', 'Drama', 'History', 'Thriller', 'War']",PG-13
+The Monkey King 2,2016,22-Dec-17,12.0,2010,116,193678298,"['Biography', 'Drama', 'History', 'Thriller', 'War']",PG-13
+Paranormal Activity,2007,25-Sep-09,9.0,2000,86,193355800,"['Horror', 'Mystery']",R
+Weathering with You,2019,25-Sep-09,9.0,2010,86,192927708,"['Horror', 'Mystery']",R
+The Lost City,2022,25-Sep-09,9.0,2020,86,192907684,"['Horror', 'Mystery']",R
+The Equalizer,2014,24-Sep-14,9.0,2010,132,192330738,"['Action', 'Crime', 'Thriller']",R
+Sheep Without a Shepherd,2019,24-Sep-14,9.0,2010,132,192330738,"['Action', 'Crime', 'Thriller']",R
+The Addams Family,1991,22-Nov-91,11.0,1990,99,191502426,"['Comedy', 'Fantasy']",
+The Longest Yard,2005,27-May-05,5.0,2000,113,191466556,"['Comedy', 'Crime', 'Sport']",PG-13
+The Santa Clause,1994,11-Nov-94,11.0,1990,97,190539357,"['Comedy', 'Drama', 'Family', 'Fantasy']",PG
+Cheaper by the Dozen,2003,25-Dec-03,12.0,2000,98,190538630,"['Comedy', 'Family']",PG
+The Equalizer 2,2018,18-Jul-18,7.0,2010,121,190400157,"['Action', 'Crime', 'Thriller']",R
+Abominable,2019,19-Sep-19,9.0,2010,97,190304772,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",PG
+Hollow Man,2000,4-Aug-00,8.0,2000,112,190213455,"['Action', 'Horror', 'Sci-Fi', 'Thriller']",R
+Outbreak,1995,4-Aug-00,8.0,1990,112,189859560,"['Action', 'Horror', 'Sci-Fi', 'Thriller']",R
+The White Storm 2: Drug Lords,2019,4-Aug-00,8.0,2010,112,189396380,"['Action', 'Horror', 'Sci-Fi', 'Thriller']",R
+The X Files,1998,4-Aug-00,8.0,1990,112,189176423,"['Action', 'Horror', 'Sci-Fi', 'Thriller']",R
+Breakup Buddies,2014,4-Aug-00,8.0,2010,112,189017596,"['Action', 'Horror', 'Sci-Fi', 'Thriller']",R
+Rambo III,1988,25-May-88,5.0,1980,102,189015611,"['Action', 'Adventure', 'Thriller']",
+Insidious: The Red Door,2023,25-May-88,5.0,2020,102,188498619,"['Action', 'Adventure', 'Thriller']",
+The Secret Life of Walter Mitty,2013,19-Dec-13,12.0,2010,114,188133322,"['Adventure', 'Comedy', 'Drama', 'Fantasy', 'Romance']",PG
+Project Gutenberg,2018,19-Dec-13,12.0,2010,114,188133322,"['Adventure', 'Comedy', 'Drama', 'Fantasy', 'Romance']",PG
+Jaws 2,1978,19-Dec-13,12.0,1970,114,187884007,"['Adventure', 'Comedy', 'Drama', 'Fantasy', 'Romance']",PG
+12 Years a Slave,2013,18-Oct-13,10.0,2010,134,187733202,"['Biography', 'Drama', 'History']",R
+Heat,1995,18-Oct-13,10.0,1990,134,187436818,"['Biography', 'Drama', 'History']",R
+Mr. Popper's Penguins,2011,16-Jun-11,6.0,2010,94,187361754,"['Comedy', 'Family', 'Fantasy']",PG
+The Grudge,2004,22-Oct-04,10.0,2000,91,187281115,"['Horror', 'Mystery', 'Thriller']",PG-13
+One Piece Film: Red,2022,22-Oct-04,10.0,2020,91,187170704,"['Horror', 'Mystery', 'Thriller']",PG-13
+I Now Pronounce You Chuck & Larry,2007,20-Jul-07,7.0,2000,115,187134117,"['Comedy', 'Romance']",PG-13
+The Horse Whisperer,1998,20-Jul-07,7.0,1990,115,186883563,"['Comedy', 'Romance']",PG-13
+Walk the Line,2005,2-Feb-05,2.0,2000,136,186797986,"['Biography', 'Drama', 'Music', 'Romance']",PG-13
+Jian Bing Man,2015,2-Feb-05,2.0,2010,136,186797986,"['Biography', 'Drama', 'Music', 'Romance']",PG-13
+The Jungle Book 2,2003,5-Feb-03,2.0,2000,72,186303759,"['Adventure', 'Animation', 'Comedy', 'Family', 'Music', 'Musical']",
+The Final Destination,2009,26-Aug-09,8.0,2000,82,186167139,"['Horror', 'Thriller']",R
+Atlantis: The Lost Empire,2001,8-Jun-01,6.0,2000,95,186053725,"['Action', 'Adventure', 'Animation', 'Family', 'Fantasy', 'Sci-Fi']",PG
+Inside Man,2006,23-Mar-06,3.0,2000,129,186003591,"['Crime', 'Drama', 'Mystery', 'Thriller']",R
+The Waterboy,1998,6-Nov-98,11.0,1990,90,185991646,"['Comedy', 'Sport']",PG-13
+Hugo,2011,6-Nov-98,11.0,2010,90,185770310,"['Comedy', 'Sport']",PG-13
+Pitch Perfect 3,2017,21-Dec-17,12.0,2010,93,185400345,"['Comedy', 'Music']",PG-13
+Watchmen,2009,4-Mar-09,3.0,2000,162,185382813,"['Action', 'Drama', 'Mystery', 'Sci-Fi']",R
+The Birdcage,1996,4-Mar-09,3.0,1990,162,185260553,"['Action', 'Drama', 'Mystery', 'Sci-Fi']",R
+Moulin Rouge!,2001,18-May-01,5.0,2000,127,184928542,"['Drama', 'Musical', 'Romance']",PG-13
+Snow White and the Seven Dwarfs,1937,18-May-01,5.0,1930,127,184928542,"['Drama', 'Musical', 'Romance']",PG-13
+Ode to My Father,2014,18-May-01,5.0,2010,127,184827559,"['Drama', 'Musical', 'Romance']",PG-13
+Hop,2011,30-Mar-11,3.0,2010,95,184367145,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",PG
+Bad Moms,2016,28-Jul-16,7.0,2010,100,183936074,['Comedy'],R
+Jupiter Ascending,2015,4-Feb-15,2.0,2010,127,183887723,"['Action', 'Adventure', 'Sci-Fi']",PG-13
+Knowing,2009,16-May-07,5.0,2000,121,183658498,"['Action', 'Mystery', 'Sci-Fi', 'Thriller']",PG-13
+102 Dalmatians,2000,22-Nov-00,11.0,2000,100,183611771,"['Adventure', 'Comedy', 'Family']",
+Storks,2016,22-Sep-16,9.0,2010,87,183510278,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",PG
+Stand by Me Doraemon,2014,22-Sep-16,9.0,2010,87,183510278,"['Adventure', 'Animation', 'Comedy', 'Family', 'Fantasy']",PG
+The Hitman's Bodyguard,2017,16-Aug-17,8.0,2010,118,183428689,"['Action', 'Comedy', 'Crime', 'Thriller']",R
+Paul Blart: Mall Cop,2009,16-Jan-09,1.0,2000,91,183348429,"['Action', 'Comedy', 'Crime', 'Family']",PG
+Wayne's World,1992,14-Feb-92,2.0,1990,94,183097323,"['Comedy', 'Music']",PG-13
+Maverick,1994,14-Feb-92,2.0,1990,94,183031272,"['Comedy', 'Music']",PG-13
+Mirror Mirror,2012,15-Mar-12,3.0,2010,106,183018522,"['Adventure', 'Comedy', 'Drama', 'Family', 'Fantasy']",PG
+The Man in the Iron Mask,1998,15-Mar-12,3.0,1990,106,182968902,"['Adventure', 'Comedy', 'Drama', 'Family', 'Fantasy']",PG
+Cape Fear,1991,15-Mar-12,3.0,1990,106,182291969,"['Adventure', 'Comedy', 'Drama', 'Family', 'Fantasy']",PG
+The Haunted Mansion,2003,26-Nov-03,11.0,2000,99,182290266,"['Comedy', 'Family', 'Fantasy', 'Horror', 'Mystery']",PG
+The Monkey King: Havoc in Heaven's Palace,2014,26-Nov-03,11.0,2010,99,182290266,"['Comedy', 'Family', 'Fantasy', 'Horror', 'Mystery']",PG
+While You Were Sleeping,1995,21-Apr-95,4.0,1990,103,182057016,"['Comedy', 'Drama', 'Romance']",PG
+The Bridges of Madison County,1995,2-Jun-95,6.0,1990,135,182016617,"['Drama', 'Romance']",PG-13
+From Vegas to Macau III,2016,2-Jun-95,6.0,2010,135,182016617,"['Drama', 'Romance']",PG-13
+Poseidon,2006,10-May-06,5.0,2000,98,181674817,"['Action', 'Adventure', 'Thriller']",PG-13
+The First Wives Club,1996,10-May-06,5.0,1990,98,181489203,"['Action', 'Adventure', 'Thriller']",PG-13
+Cliff Walkers,2021,10-May-06,5.0,2020,98,181325565,"['Action', 'Adventure', 'Thriller']",PG-13
+Scooby-Doo 2: Monsters Unleashed,2004,10-May-06,5.0,2000,98,181239132,"['Action', 'Adventure', 'Thriller']",PG-13
+Hot Shots!,1991,31-Jul-91,7.0,1990,84,181096164,"['Action', 'Comedy']",
+Road to Perdition,2002,12-Jul-02,7.0,2000,117,181001478,"['Crime', 'Drama', 'Thriller']",R
+Kill Bill: Vol. 1,2003,9-Oct-03,10.0,2000,111,180906076,"['Action', 'Crime', 'Thriller']",R
+The Scorpion King,2002,18-Apr-02,4.0,2000,92,180630907,"['Action', 'Adventure', 'Fantasy']",PG-13
+Sweet Home Alabama,2002,27-Sep-02,9.0,2000,108,180622424,"['Comedy', 'Romance']",PG-13
+Daddy's Home 2,2017,9-Nov-17,11.0,2010,100,180613824,['Comedy'],PG-13
+Hacksaw Ridge,2016,3-Nov-16,11.0,2010,139,180563636,"['Biography', 'Drama', 'History', 'War']",R
+Deja Vu,2006,22-Nov-06,11.0,2000,126,180557550,"['Action', 'Crime', 'Sci-Fi', 'Thriller']",PG-13
+M3GAN,2022,22-Nov-06,11.0,2020,126,179968873,"['Action', 'Crime', 'Sci-Fi', 'Thriller']",PG-13
