@@ -173,5 +173,3 @@ ggplot(movies, aes(x = running_time_minutes, y = world_wide_sales)) +
 
 The last plot is a scatterplot of runtime versus worldwide sales, with a fitted regression line. Each dot represents one movie, and sales are plotted on a logarithmic scale to better visualize the large differences in revenue. The regression line shows a slight upward slope. A Pearson correlation confirmed this trend, with r = 0.297, indicating a weak-to-moderate positive relationship between runtime and revenue. In other words, longer movies tend to earn slightly more, but the relationship is not strong. Most top-performing movies fall between 90 and 140 minutes, with only a few longer films standing out as outliers.
 
-After also running a Pearson correlation analysis only a weak-to-moderate positive relationship (r = 0.297) between runtime and worldwide sales was noticed, suggesting that longer movies tend to perform slightly better at the box office, although runtime alone is not a strong predictor of success.
-

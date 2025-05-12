@@ -42,6 +42,10 @@ book:
       chapters:
       - src/et/AlphaB_effective-teamwork.qmd
       - src/et/AnnabelleA_effective-teamwork.qmd
+    - part: "Presentation"
+      chapters:
+      - src/pres/presentation_slides.qmd
+      - src/pres/presentation_video.qmd
 
   appendices:
   - src/appx/proposal.qmd
