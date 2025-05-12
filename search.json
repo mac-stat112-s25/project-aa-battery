@@ -2,72 +2,44 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "project title",
+    "title": "Project AA Battery: Patterns of Movie Box Office Success",
     "section": "",
-    "text": "Your report will go here.\n\n# this is a test code",
+    "text": "Code# Load libraries\nlibrary(tidyverse)\nlibrary(lubridate)\n\n\n\n1 How does the time of year of a movie’s release affect sales? - Alpha\n\nCode# 1. Load the corrected cleaned file\nmovies &lt;- read.csv(\"data/movies_cleaned_final_with_correct_month.csv\")\n\n# 2. FIX the month so it displays January, February, etc.\nmovies$release_month &lt;- factor(movies$release_month, levels = 1:12, labels = month.name, ordered = TRUE)\n\n# -------------------------------------------------\n# Plot 1: Time of Year Affecting Sales\n# -------------------------------------------------\n\nggplot(movies, aes(x = release_month, y = world_wide_sales)) +\n  geom_boxplot(fill = \"skyblue\", outlier.color = \"red\", outlier.alpha = 0.5) +\n  labs(\n    title = \"Worldwide Sales by Month of Release\",\n    subtitle = \"Boxplots show spread, median, and outliers by month\",\n    x = \"Release Month\",\n    y = \"Worldwide Sales (Log Scale)\"\n  ) +\n  theme_minimal(base_size = 16) +\n  theme(\n    plot.title = element_text(face = \"bold\", size = 20, hjust = 0.5),\n    plot.subtitle = element_text(size = 14, hjust = 0.5),\n    axis.title.x = element_text(margin = margin(t = 10)),\n    axis.title.y = element_text(margin = margin(r = 10)),\n    axis.text.x = element_text(angle = 45, hjust = 1, size = 12),\n    axis.text.y = element_text(size = 12)\n  ) +\n  scale_y_continuous(trans = \"log10\", labels = scales::dollar)\n\n\n\n\n\n\n\n\n2 What is the relationship between a movie’s budget and revenue? - Annabelle\n\nCodemovies &lt;- read_csv(\"~/Documents/GitHub/project-aa-battery/movies.csv\")\n\nmovies &lt;- movies |&gt;\n  mutate(budget = as.numeric(`Budget (in $)`) , \n         dom_sales = `Domestic Sales (in $)`/1000000 , \n         int_sales = `International Sales (in $)`/1000000 , \n         ww_sales = `World Wide Sales (in $)`/1000000) |&gt; \n  mutate(release_date = str_replace_all(`Release Date`, c(\"Jan\" = \"1\", \n                                                          \"Feb\" = \"2\", \n                                                          \"Mar\" = \"3\",\n                                                          \"Apr\" = \"4\",\n                                                          \"May\" = \"5\",\n                                                          \"Jun\" = \"6\",\n                                                          \"Jul\" = \"7\",\n                                                          \"Aug\" = \"8\",\n                                                          \"Sep\" = \"9\",\n                                                          \"Oct\" = \"10\",\n                                                          \"Nov\" = \"11\",\n                                                          \"Dec\" = \"12\"))) |&gt; \n  mutate(release_date = as.Date(release_date, \"%d-%m-%y\")) |&gt; \n  separate(`Running Time`, c(\"hour\", \"min\"), sep = \"hr\") |&gt;\n  mutate(min = str_replace(min, \"min\", \"\")) |&gt;\n  mutate(hour = as.numeric(hour),\n         min = as.numeric(min),\n         run_time = (hour*60) + min) \n\nmovies |&gt;\n  mutate(budget = budget/1000000) |&gt; # convert budget number to millions\n  filter(!is.na(budget)) |&gt;\n  ggplot(aes(x = budget, y = ww_sales, color = cut(budget, 4))) +\n  geom_boxplot() +\n  labs(title = \"Movie Budgets vs Worldwide Sales Split by Budget Range\",\n       x = \"Budget(Millions of Dollars)\",\n       y = \"Worldwide Sales(Millions of Dollars)\",\n       color = \"Budget Range\",\n       subtitle = \"by Annabelle Adachi\",\n       caption = \"Boxplot of budget ranges versus worldwide sales. There is a positive trend in the median sales as the budget increases.\") +\n  theme(plot.caption.position = \"plot\")\n\n\n\n\n\n\n\n\n3 What are the genre trends for movies released over time? - Annabelle\n\nCodegenre_movies &lt;- movies |&gt;\n  separate(Genre, c(\"genre1\", \"genre2\", \"genre3\", \"genre4\", \"genre5\", \"genre6\", \"genre7\"), sep = \"'\") |&gt;\n  select(-genre1, -genre3, -genre5, -genre7) |&gt;\n  mutate(genre_1 = genre2, genre_2 = genre4, genre_3 = genre6) |&gt;\n  select(-genre2, -genre4, -genre6) \n\ngenre_movies |&gt;\n  group_by(genre_1) |&gt;\n  summarise(total = sum(ww_sales)) |&gt;\n  ggplot(aes(x = genre_1, y = total)) +\n  geom_col() + # total worldwide sales across all time by genre\n  labs(x = \"Movie Genre\",\n       y = \"Total Movies\",\n       title = \"Total Amount of Movies Released Across All Time by Genre\",\n       subtitle = \"by Annabelle Adachi\",\n       caption = \"Column plot visualizing count of movies released in each genre.\") +\n  theme(plot.caption.position = \"plot\")\n\n\n\n\n\n\nCodegenre_movies |&gt;\n  group_by(genre_1, Year) |&gt;\n  summarise(avg = mean(ww_sales)) |&gt;\n  ggplot(aes(x = Year, y = avg, color = genre_1)) +\n  geom_col() +\n  facet_wrap(~genre_1) +\n  labs(title = \"Trends in Yearly Average Worldwide Sales by Genre\",\n       y = \"Average Worldwide Sales(Millions of Dollars)\",\n       subtitle = \"by Annabelle Adachi\",\n       caption = \"Column plot visualizing trends in movie success over time by genre.\") +\n  theme(legend.position = \"none\",\n        plot.caption = element_text(hjust = 0.5))\n\n\n\n\n\n\n\n\n4 How has the relationship between run time and movie success changed over time? - Alpha\n\nCode# 1. Load the corrected cleaned file\nmovies &lt;- read.csv(\"data/movies_cleaned_final_with_correct_month.csv\")\n\n# Simple scatterplot + trendline\nggplot(movies, aes(x = running_time_minutes, y = world_wide_sales)) +\n  geom_point(alpha = 0.5, size = 2, color = \"#1D3557\") +\n  geom_smooth(method = \"lm\", se = TRUE, color = \"#E63946\", size = 1.2) +\n  labs(\n    title = \"Relationship Between Runtime and Worldwide Sales\",\n    subtitle = \"Each point is a movie, with a trendline\",\n    x = \"Runtime (Minutes)\",\n    y = \"Worldwide Sales (Log Scale)\"\n  ) +\n  theme_minimal(base_size = 16) +\n  theme(\n    plot.title = element_text(face = \"bold\", size = 16, hjust = 0.5),\n    plot.subtitle = element_text(size = 12, hjust = 0.5),\n    axis.title.x = element_text(margin = margin(t = 10)),\n    axis.title.y = element_text(margin = margin(r = 10))\n  ) +\n  scale_y_continuous(trans = \"log10\", labels = scales::dollar)\n\n\n\n\n\n\n\nAfter also running a Pearson correlation analysis only a weak-to-moderate positive relationship (r = 0.297) between runtime and worldwide sales was noticed, suggesting that longer movies tend to perform slightly better at the box office, although runtime alone is not a strong predictor of success.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Report</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Patterns of Movie Box Office Success</span>"
     ]
   },
   {
-    "objectID": "research-questions.html",
-    "href": "research-questions.html",
-    "title": "2  research-questions",
+    "objectID": "src/et/AlphaB_effective-teamwork.html",
+    "href": "src/et/AlphaB_effective-teamwork.html",
+    "title": "2  Alpha B Effective Teamwork",
     "section": "",
-    "text": "3 Research Questions",
+    "text": "Keys To Effective Teamwork\nEffective teamwork hinges on a teams ability to recognize the strength of each individual, leveraging their unique skill set in order to maximize the teams effectiveness, efficiency, and enjoyment. Additionally, establishment of clear modes of communication is important in preventing misunderstandings and in ensuring group cohesiveness.\nhttps://hbr.org/2023/08/what-makes-some-teams-high-performing",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>research-questions</span>"
+      "Effective Teamwork",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Alpha B Effective Teamwork</span>"
     ]
   },
   {
-    "objectID": "research-questions.html#how-does-the-time-of-year-of-a-movies-release-affect-sales",
-    "href": "research-questions.html#how-does-the-time-of-year-of-a-movies-release-affect-sales",
-    "title": "2  research-questions",
-    "section": "3.1 1. How does the time of year of a movie’s release affect sales?",
-    "text": "3.1 1. How does the time of year of a movie’s release affect sales?",
+    "objectID": "src/et/AnnabelleA_effective-teamwork.html",
+    "href": "src/et/AnnabelleA_effective-teamwork.html",
+    "title": "3  Annabelle A Effective Teamwork",
+    "section": "",
+    "text": "article link: https://hr.berkeley.edu/hr-network/central-guide-managing-hr/managing-hr/interaction/team-building/steps\nSummary: Effective teamwork is reliant on every member of the team being treated with respect and being listened to. When team members are valued for their specific skills and given clear communication, they are most successful. It’s also crucial that team members feel aligned with the overall goals of the team. Lastly, clear boundaries should be established in order to minimize conflict and maximize successful collaboration.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>research-questions</span>"
-    ]
-  },
-  {
-    "objectID": "research-questions.html#what-is-the-relationship-between-a-movies-budget-and-revenue-and-what-other-variables-play-a-role-when-budget-doesnt-correlate-with-sales",
-    "href": "research-questions.html#what-is-the-relationship-between-a-movies-budget-and-revenue-and-what-other-variables-play-a-role-when-budget-doesnt-correlate-with-sales",
-    "title": "2  research-questions",
-    "section": "3.2 2. What is the relationship between a movie’s budget and revenue, and what other variables play a role when budget doesn’t correlate with sales?",
-    "text": "3.2 2. What is the relationship between a movie’s budget and revenue, and what other variables play a role when budget doesn’t correlate with sales?",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>research-questions</span>"
-    ]
-  },
-  {
-    "objectID": "research-questions.html#what-are-the-genre-trends-for-movies-released-over-time",
-    "href": "research-questions.html#what-are-the-genre-trends-for-movies-released-over-time",
-    "title": "2  research-questions",
-    "section": "3.3 3. What are the genre trends for movies released over time?",
-    "text": "3.3 3. What are the genre trends for movies released over time?",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>research-questions</span>"
-    ]
-  },
-  {
-    "objectID": "research-questions.html#how-has-the-relationship-between-run-time-and-movie-success-changed-over-time",
-    "href": "research-questions.html#how-has-the-relationship-between-run-time-and-movie-success-changed-over-time",
-    "title": "2  research-questions",
-    "section": "3.4 4. How has the relationship between run time and movie success changed over time?",
-    "text": "3.4 4. How has the relationship between run time and movie success changed over time?",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>research-questions</span>"
+      "Effective Teamwork",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Annabelle A Effective Teamwork</span>"
     ]
   },
   {
     "objectID": "src/appx/proposal.html",
     "href": "src/appx/proposal.html",
-    "title": "Appendix A — Proposal: Patterns of Highest Grossing Movies",
+    "title": "Appendix A — Proposal",
     "section": "",
     "text": "Team Members: Alpha Bah and Annabelle Adachi\nWe will analyze data on the highest grossing movies from 1937-2022 and examine patterns and trends in on-screen and behind-the-scenes details. We will try to determine what makes movies successful at the box office, and how those factors have changed over time. We are passionate about movies and curious about what distinguishes high-earning movies from low-earning movies.\nWork Plan: We plan to share the workload as evenly as possible, and each work on several explorations of different variables of the data.",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Proposal: Patterns of Highest Grossing Movies</span>"
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Proposal</span>"
     ]
   },
   {
@@ -75,32 +47,43 @@
     "href": "src/appx/case-study.html",
     "title": "Appendix B — Case Study",
     "section": "",
-    "text": "Case study article: A Plagiarism Scandal Is Unfolding In The Crossword World by Oliver Roeder\nThis article did a very good job of using data analysis to tell an intriguing story. The article wasn’t too packed with data visualizations and it shared insights from the data through a variety of methods. Additionally, the limitations of the data being used was very clearly communicated. The data was made very accessible and relevant details such as how crosswords are structured and created were explained simply to the reader. This article demonstrated how to artfully tell a story using data analysis and visualization that can be understood by anyone.",
+    "text": "Case study article: A Plagiarism Scandal Is Unfolding In The Crossword World by Oliver Roeder\nThis article did a very good job of using data analysis to tell an intriguing story. The article wasn’t too packed with data visualizations and it shared insights from the data through a variety of methods. Additionally, the limitations of the data being used was very clearly communicated. The data was made very accessible and relevant details such as how crosswords are structured and created were explained simply to the reader. This article demonstrated how to artfully tell a story using data analysis and visualization that can be understood by anyone.\narticle link: https://fivethirtyeight.com/features/a-plagiarism-scandal-is-unfolding-in-the-crossword-world/",
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>B</span>  <span class='chapter-title'>Case Study</span>"
     ]
   },
   {
-    "objectID": "src/et/AlphaB_effective-teamwork.html",
-    "href": "src/et/AlphaB_effective-teamwork.html",
-    "title": "Appendix C — Alpha B Effective Teamwork",
+    "objectID": "src/eda/AnnabelleA_eda.html",
+    "href": "src/eda/AnnabelleA_eda.html",
+    "title": "Appendix C — EDA",
     "section": "",
-    "text": "Keys To Effective Teamwork\nEffective teamwork hinges on a teams ability to recognize the strength of each individual, leveraging their unique skill set in order to maximize the teams effectiveness, efficiency, and enjoyment. Additionally, establishment of clear modes of communication is important in preventing misunderstandings and in ensuring group cohesiveness.\nhttps://hbr.org/2023/08/what-makes-some-teams-high-performing",
+    "text": "C.1 Import Data\nCodelibrary(tidyverse)\nlibrary(lubridate)\nmovies &lt;- read_csv(\"~/Documents/GitHub/project-aa-battery/movies.csv\")\nstr(movies)\n\nspc_tbl_ [1,000 × 14] (S3: spec_tbl_df/tbl_df/tbl/data.frame)\n $ ...1                      : num [1:1000] 0 1 2 3 4 5 6 7 8 9 ...\n $ Title                     : chr [1:1000] \"Avatar\" \"Avengers: Endgame\" \"Avatar: The Way of Water\" \"Titanic\" ...\n $ Movie Info                : chr [1:1000] \"A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his order\"| __truncated__ \"After the devastating events of Avengers: Infinity War, the universe is in ruins. With the help of remaining al\"| __truncated__ \"Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns\"| __truncated__ \"A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.\" ...\n $ Year                      : num [1:1000] 2009 2019 2022 1997 2015 ...\n $ Distributor               : chr [1:1000] \"Twentieth Century Fox\" \"Walt Disney Studios Motion Pictures\" \"20th Century Studios\" \"Paramount Pictures\" ...\n $ Budget (in $)             : chr [1:1000] \"237000000\" \"356000000\" \"December 14 2022 (EMEA APAC)\" \"200000000\" ...\n $ Domestic Opening (in $)   : chr [1:1000] \"77025481\" \"357115007\" \"134100226\" \"28638131\" ...\n $ Domestic Sales (in $)     : num [1:1000] 7.85e+08 8.58e+08 6.84e+08 6.74e+08 9.37e+08 ...\n $ International Sales (in $): num [1:1000] 2.14e+09 1.94e+09 1.64e+09 1.59e+09 1.13e+09 ...\n $ World Wide Sales (in $)   : num [1:1000] 2.92e+09 2.80e+09 2.32e+09 2.26e+09 2.07e+09 ...\n $ Release Date              : chr [1:1000] \"16-Dec-09\" \"24-Apr-19\" \"24-Apr-19\" \"19-Dec-97\" ...\n $ Genre                     : chr [1:1000] \"['Action', 'Adventure', 'Fantasy', 'Sci-Fi']\" \"['Action', 'Adventure', 'Drama', 'Sci-Fi']\" \"['Action', 'Adventure', 'Drama', 'Sci-Fi']\" \"['Drama', 'Romance']\" ...\n $ Running Time              : chr [1:1000] \"2 hr 42 min\" \"3 hr 1 min\" \"3 hr 1 min\" \"3 hr 14 min\" ...\n $ License                   : chr [1:1000] \"PG-13\" \"PG-13\" \"PG-13\" \"PG-13\" ...\n - attr(*, \"spec\")=\n  .. cols(\n  ..   ...1 = col_double(),\n  ..   Title = col_character(),\n  ..   `Movie Info` = col_character(),\n  ..   Year = col_double(),\n  ..   Distributor = col_character(),\n  ..   `Budget (in $)` = col_character(),\n  ..   `Domestic Opening (in $)` = col_character(),\n  ..   `Domestic Sales (in $)` = col_double(),\n  ..   `International Sales (in $)` = col_double(),\n  ..   `World Wide Sales (in $)` = col_double(),\n  ..   `Release Date` = col_character(),\n  ..   Genre = col_character(),\n  ..   `Running Time` = col_character(),\n  ..   License = col_character()\n  .. )\n - attr(*, \"problems\")=&lt;externalptr&gt;",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Alpha B Effective Teamwork</span>"
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>EDA</span>"
     ]
   },
   {
-    "objectID": "src/et/AnnabelleA_effective-teamwork.html",
-    "href": "src/et/AnnabelleA_effective-teamwork.html",
-    "title": "Appendix D — Annabelle A Effective Teamwork",
-    "section": "",
-    "text": "article link: https://hr.berkeley.edu/hr-network/central-guide-managing-hr/managing-hr/interaction/team-building/steps\nSummary: Effective teamwork is reliant on every member of the team being treated with respect and being listened to. When team members are valued for their specific skills and given clear communication, they are most successful. It’s also crucial that team members feel aligned with the overall goals of the team. Lastly, clear boundaries should be established in order to minimize conflict and maximize successful collaboration.",
+    "objectID": "src/eda/AnnabelleA_eda.html#explore-individual-variables",
+    "href": "src/eda/AnnabelleA_eda.html#explore-individual-variables",
+    "title": "Appendix C — EDA",
+    "section": "\nC.2 Explore Individual Variables",
+    "text": "C.2 Explore Individual Variables\n\nCode# distribution of year of release\n# much more data on newer movies released after around 1980\nggplot(movies, aes(x = Year)) +\n  geom_density()\n\n\n\n\n\n\nCode# distribution of company\n# six distributors were responsible for the most movies by far\nggplot(movies, aes(x = Distributor)) +\n  geom_bar()\n\n\n\n\n\n\nCodemovies |&gt;\n  count(Distributor) |&gt;\n  arrange(desc(n)) |&gt;\n  head(6)\n\n# A tibble: 6 × 2\n  Distributor                             n\n  &lt;chr&gt;                               &lt;int&gt;\n1 Warner Bros.                          166\n2 Walt Disney Studios Motion Pictures   159\n3 Universal Pictures                    130\n4 Twentieth Century Fox                 123\n5 Sony Pictures Entertainment (SPE)     104\n6 Paramount Pictures                     93\n\nCode# distribution of budget can't be visualized - variable needs to be made into numerical values, not characters\n\n# domestic, international and worldwide sales\n# numbers are hard to understand because they are so large, should be converted to millions or billions of dollars\nggplot(movies, aes(x = `Domestic Sales (in $)`)) +\n  geom_density()\n\n\n\n\n\n\nCodeggplot(movies, aes(x = `International Sales (in $)`)) +\n  geom_density()\n\n\n\n\n\n\nCodeggplot(movies, aes(x = `World Wide Sales (in $)`)) +\n  geom_density()\n\n\n\n\n\n\nCode# release date\n# characters should be made into dates so we can examine seasonal patterns\nggplot(movies, aes(x = `Release Date`)) +\n  geom_bar()\n\n\n\n\n\n\nCode# distribution of movie genre\n# so many genres, movies with more than one genre create new blended genre, messy and hard to gain any info from\nggplot(movies, aes(x = Genre)) +\n  geom_bar()\n\n\n\n\n\n\nCodemovies |&gt;\n  summarise(Genre)\n\n# A tibble: 1,000 × 1\n   Genre                                       \n   &lt;chr&gt;                                       \n 1 ['Action', 'Adventure', 'Fantasy', 'Sci-Fi']\n 2 ['Action', 'Adventure', 'Drama', 'Sci-Fi']  \n 3 ['Action', 'Adventure', 'Drama', 'Sci-Fi']  \n 4 ['Drama', 'Romance']                        \n 5 ['Action', 'Adventure', 'Sci-Fi']           \n 6 ['Action', 'Adventure', 'Sci-Fi']           \n 7 ['Action', 'Adventure', 'Sci-Fi']           \n 8 ['Action', 'Adventure', 'Sci-Fi']           \n 9 ['Adventure', 'Drama', 'Family', 'Musical'] \n10 ['Action', 'Sci-Fi']                        \n# ℹ 990 more rows\n\nCode# movie run time\n# should be numerical value in minutes not character value\nmovies |&gt;\n  summarise(`Running Time`)\n\n# A tibble: 1,000 × 1\n   `Running Time`\n   &lt;chr&gt;         \n 1 2 hr 42 min   \n 2 3 hr 1 min    \n 3 3 hr 1 min    \n 4 3 hr 14 min   \n 5 2 hr 18 min   \n 6 2 hr 18 min   \n 7 2 hr 18 min   \n 8 2 hr 4 min    \n 9 1 hr 58 min   \n10 2 hr 23 min   \n# ℹ 990 more rows\n\nCode# rating\nggplot(movies, aes(x = License)) +\n  geom_bar()",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>D</span>  <span class='chapter-title'>Annabelle A Effective Teamwork</span>"
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>EDA</span>"
+    ]
+  },
+  {
+    "objectID": "src/eda/AnnabelleA_eda.html#clean-up-data",
+    "href": "src/eda/AnnabelleA_eda.html#clean-up-data",
+    "title": "Appendix C — EDA",
+    "section": "\nC.3 Clean Up Data",
+    "text": "C.3 Clean Up Data\n\nCodemovies &lt;- movies |&gt;\n  mutate(budget = as.numeric(`Budget (in $)`) ,  # make budget numerical factor and simplify name\n         dom_sales = `Domestic Sales (in $)`/1000000 , # convert domestic sales to millions\n         int_sales = `International Sales (in $)`/1000000 , # convert international sales to millions\n         ww_sales = `World Wide Sales (in $)`/1000000) |&gt; # convert worldwide sales to millions\n  mutate(release_date = str_replace_all(`Release Date`, c(\"Jan\" = \"1\", \n                                                          \"Feb\" = \"2\", \n                                                          \"Mar\" = \"3\",\n                                                          \"Apr\" = \"4\",\n                                                          \"May\" = \"5\",\n                                                          \"Jun\" = \"6\",\n                                                          \"Jul\" = \"7\",\n                                                          \"Aug\" = \"8\",\n                                                          \"Sep\" = \"9\",\n                                                          \"Oct\" = \"10\",\n                                                          \"Nov\" = \"11\",\n                                                          \"Dec\" = \"12\"))) |&gt; # make release date all numbers\n  mutate(release_date = as.Date(release_date, \"%d-%m-%y\")) |&gt; # convert release date to date\n  separate(`Running Time`, c(\"hour\", \"min\"), sep = \"hr\") |&gt;\n  mutate(min = str_replace(min, \"min\", \"\")) |&gt;\n  mutate(hour = as.numeric(hour),\n         min = as.numeric(min),\n         run_time = (hour*60) + min) # make runtime variable in minutes",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>EDA</span>"
     ]
   }
 ]
