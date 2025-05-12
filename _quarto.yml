@@ -11,8 +11,8 @@ project:
 
 
 book:
-  title: "project title"
-  author: ["student 1 first and last name", "student 2 first and last name", "student 3 first and last name"]
+  title: "Project AA Battery: Patterns of Movie Box Office Success"
+  author: ["Alpha Bah", "Annabelle Adachi"]
   date: today  # use today to update date published based on last time project was edited
   date-format: full
   # favicon: images/logo.png
@@ -37,17 +37,15 @@ book:
 
   chapters:
     - index.qmd
-    - research-questions.qmd
-    - question1.qmd
-    - question2.qmd
-    - question3.qmd
-    - question4.qmd
+    
+    - part: "Effective Teamwork"
+      chapters:
+      - src/et/AlphaB_effective-teamwork.qmd
+      - src/et/AnnabelleA_effective-teamwork.qmd
 
   appendices:
   - src/appx/proposal.qmd
   - src/appx/case-study.qmd
-  - src/et/AlphaB_effective-teamwork.qmd
-  - src/et/AnnabelleA_effective-teamwork.qmd
   - src/eda/AnnabelleA_eda.qmd
 
 
@@ -71,6 +69,7 @@ format:
     code-block-border-left: "#1482FA"
     code-tools: true
     page-layout: full
+    code-fold: true
 
   # pdf:
   #   documentclass: scrreprt
@@ -80,6 +79,8 @@ format:
 
 execute:
   cache: true
+  warning: false
+  error: false
 #   freeze: auto # remove when using GitHub action to execute code
 
 

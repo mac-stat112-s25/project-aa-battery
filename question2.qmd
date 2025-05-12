@@ -3,7 +3,7 @@ title: "question2"
 format: html
 ---
 
-# What is the relationship between a movie's budget and revenue, and what other variables play a role when budget doesn't correlate with sales?
+# What is the relationship between a movie's budget and revenue?
 
 
 ```{r}

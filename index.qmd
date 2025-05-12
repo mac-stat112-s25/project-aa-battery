@@ -1,13 +1,156 @@
 ---
-title: "Report"
+title: "Patterns of Movie Box Office Success"
 execute: 
   echo: true      # change to true to show the code
-code-fold: false  # change to true to fold the code chunks
+code-fold: true  # change to true to fold the code chunks
 ---
 
-Your report will go here.
 
 ```{r}
-# this is a test code
+# Load libraries
+library(tidyverse)
+library(lubridate)
+
 ```
+
+# How does the time of year of a movie's release affect sales? - Alpha
+
+```{r}
+# 1. Load the corrected cleaned file
+movies <- read.csv("data/movies_cleaned_final_with_correct_month.csv")
+
+# 2. FIX the month so it displays January, February, etc.
+movies$release_month <- factor(movies$release_month, levels = 1:12, labels = month.name, ordered = TRUE)
+
+# -------------------------------------------------
+# Plot 1: Time of Year Affecting Sales
+# -------------------------------------------------
+
+ggplot(movies, aes(x = release_month, y = world_wide_sales)) +
+  geom_boxplot(fill = "skyblue", outlier.color = "red", outlier.alpha = 0.5) +
+  labs(
+    title = "Worldwide Sales by Month of Release",
+    subtitle = "Boxplots show spread, median, and outliers by month",
+    x = "Release Month",
+    y = "Worldwide Sales (Log Scale)"
+  ) +
+  theme_minimal(base_size = 16) +
+  theme(
+    plot.title = element_text(face = "bold", size = 20, hjust = 0.5),
+    plot.subtitle = element_text(size = 14, hjust = 0.5),
+    axis.title.x = element_text(margin = margin(t = 10)),
+    axis.title.y = element_text(margin = margin(r = 10)),
+    axis.text.x = element_text(angle = 45, hjust = 1, size = 12),
+    axis.text.y = element_text(size = 12)
+  ) +
+  scale_y_continuous(trans = "log10", labels = scales::dollar)
+
+```
+
+# What is the relationship between a movie's budget and revenue? - Annabelle
+
+```{r}
+movies <- read_csv("~/Documents/GitHub/project-aa-battery/movies.csv")
+
+movies <- movies |>
+  mutate(budget = as.numeric(`Budget (in $)`) , 
+         dom_sales = `Domestic Sales (in $)`/1000000 , 
+         int_sales = `International Sales (in $)`/1000000 , 
+         ww_sales = `World Wide Sales (in $)`/1000000) |> 
+  mutate(release_date = str_replace_all(`Release Date`, c("Jan" = "1", 
+                                                          "Feb" = "2", 
+                                                          "Mar" = "3",
+                                                          "Apr" = "4",
+                                                          "May" = "5",
+                                                          "Jun" = "6",
+                                                          "Jul" = "7",
+                                                          "Aug" = "8",
+                                                          "Sep" = "9",
+                                                          "Oct" = "10",
+                                                          "Nov" = "11",
+                                                          "Dec" = "12"))) |> 
+  mutate(release_date = as.Date(release_date, "%d-%m-%y")) |> 
+  separate(`Running Time`, c("hour", "min"), sep = "hr") |>
+  mutate(min = str_replace(min, "min", "")) |>
+  mutate(hour = as.numeric(hour),
+         min = as.numeric(min),
+         run_time = (hour*60) + min) 
+
+movies |>
+  mutate(budget = budget/1000000) |> # convert budget number to millions
+  filter(!is.na(budget)) |>
+  ggplot(aes(x = budget, y = ww_sales, color = cut(budget, 4))) +
+  geom_boxplot() +
+  labs(title = "Movie Budgets vs Worldwide Sales Split by Budget Range",
+       x = "Budget(Millions of Dollars)",
+       y = "Worldwide Sales(Millions of Dollars)",
+       color = "Budget Range",
+       subtitle = "by Annabelle Adachi",
+       caption = "Boxplot of budget ranges versus worldwide sales. There is a positive trend in the median sales as the budget increases.") +
+  theme(plot.caption.position = "plot")
+```
+
+# What are the genre trends for movies released over time? - Annabelle
+
+```{r}
+genre_movies <- movies |>
+  separate(Genre, c("genre1", "genre2", "genre3", "genre4", "genre5", "genre6", "genre7"), sep = "'") |>
+  select(-genre1, -genre3, -genre5, -genre7) |>
+  mutate(genre_1 = genre2, genre_2 = genre4, genre_3 = genre6) |>
+  select(-genre2, -genre4, -genre6) 
+
+genre_movies |>
+  group_by(genre_1) |>
+  summarise(total = sum(ww_sales)) |>
+  ggplot(aes(x = genre_1, y = total)) +
+  geom_col() + # total worldwide sales across all time by genre
+  labs(x = "Movie Genre",
+       y = "Total Movies",
+       title = "Total Amount of Movies Released Across All Time by Genre",
+       subtitle = "by Annabelle Adachi",
+       caption = "Column plot visualizing count of movies released in each genre.") +
+  theme(plot.caption.position = "plot")
+
+genre_movies |>
+  group_by(genre_1, Year) |>
+  summarise(avg = mean(ww_sales)) |>
+  ggplot(aes(x = Year, y = avg, color = genre_1)) +
+  geom_col() +
+  facet_wrap(~genre_1) +
+  labs(title = "Trends in Yearly Average Worldwide Sales by Genre",
+       y = "Average Worldwide Sales(Millions of Dollars)",
+       subtitle = "by Annabelle Adachi",
+       caption = "Column plot visualizing trends in movie success over time by genre.") +
+  theme(legend.position = "none",
+        plot.caption = element_text(hjust = 0.5))
+```
+
+# How has the relationship between run time and movie success changed over time? - Alpha
+
+```{r}
+# 1. Load the corrected cleaned file
+movies <- read.csv("data/movies_cleaned_final_with_correct_month.csv")
+
+# Simple scatterplot + trendline
+ggplot(movies, aes(x = running_time_minutes, y = world_wide_sales)) +
+  geom_point(alpha = 0.5, size = 2, color = "#1D3557") +
+  geom_smooth(method = "lm", se = TRUE, color = "#E63946", size = 1.2) +
+  labs(
+    title = "Relationship Between Runtime and Worldwide Sales",
+    subtitle = "Each point is a movie, with a trendline",
+    x = "Runtime (Minutes)",
+    y = "Worldwide Sales (Log Scale)"
+  ) +
+  theme_minimal(base_size = 16) +
+  theme(
+    plot.title = element_text(face = "bold", size = 16, hjust = 0.5),
+    plot.subtitle = element_text(size = 12, hjust = 0.5),
+    axis.title.x = element_text(margin = margin(t = 10)),
+    axis.title.y = element_text(margin = margin(r = 10))
+  ) +
+  scale_y_continuous(trans = "log10", labels = scales::dollar)
+
+```
+
+After also running a Pearson correlation analysis only a weak-to-moderate positive relationship (r = 0.297) between runtime and worldwide sales was noticed, suggesting that longer movies tend to perform slightly better at the box office, although runtime alone is not a strong predictor of success.
 

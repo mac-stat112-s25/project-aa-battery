@@ -1,5 +1,5 @@
 ---
-title: "Proposal: Patterns of Highest Grossing Movies"
+title: "Proposal"
 ---
 
 *Team Members: Alpha Bah and Annabelle Adachi*

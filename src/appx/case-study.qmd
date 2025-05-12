@@ -5,3 +5,5 @@ title: "Case Study"
 Case study article: A Plagiarism Scandal Is Unfolding In The Crossword World by Oliver Roeder
 
 This article did a very good job of using data analysis to tell an intriguing story. The article wasn't too packed with data visualizations and it shared insights from the data through a variety of methods. Additionally, the limitations of the data being used was very clearly communicated. The data was made very accessible and relevant details such as how crosswords are structured and created were explained simply to the reader. This article demonstrated how to artfully tell a story using data analysis and visualization that can be understood by anyone.
+
+article link: https://fivethirtyeight.com/features/a-plagiarism-scandal-is-unfolding-in-the-crossword-world/
